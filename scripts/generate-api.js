@@ -92,7 +92,6 @@ async function savePokemon(url) {
         order,
         types: types.sort(sortBy('slot')).map(({type, slot}) => type.name),
         default: is_default,
-        versions: json.game_indices.map(({version}) => version.name),
         images: images.reduce((acc, [type, url]) => {
             acc[type] = url;
 
@@ -108,6 +107,7 @@ async function savePokemon(url) {
                 height: json.height,
                 weight: json.weight,
                 baseExp: json.base_experience,
+                versions: json.game_indices.map(({version}) => version.name),
                 stats: json.stats.map(({stat, effort, base_stat}) => ({
                     name: stat.name,
                     base: base_stat,
