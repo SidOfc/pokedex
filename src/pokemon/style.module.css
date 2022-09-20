@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: var(--padding);
+    border-radius: var(--radius);
+}
+
+.thumbnailContainer {
+    width: 100%;
+    position: relative;
+}
+
+.thumbnailContainer::before {
+    content: '';
+    position: relative;
+    display: block;
+    width: inherit;
+    padding-top: 100%;
+}
+
+.thumbnailContainer img {
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.identifier {
+    --identifier-border-color: #ccc;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 0.8rem;
+    align-items: center;
+    margin-top: var(--padding);
+    padding-right: var(--padding);
+    border: 1px solid var(--identifier-border-color);
+    border-radius: var(--radius);
+}
+
+.identifier::before {
+    content: '#';
+    background-color: var(--identifier-border-color);
+    margin-right: var(--padding);
+    padding: 2px var(--padding);
+    font-weight: 700;
+}

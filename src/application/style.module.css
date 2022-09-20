@@ -1,0 +1,22 @@
+:global body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.application {
+    --pokemon-list-width: minmax(300px, 20%);
+    --pokemon-list-columns: 3;
+    --team-height: 200px;
+    --padding: 8px;
+    --radius: 4px;
+    font-family: sans-serif;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr var(--pokemon-list-width);
+    grid-template-rows: 1fr var(--team-height);
+    width: inherit;
+    height: inherit;
+    background-color: lightblue;
+}

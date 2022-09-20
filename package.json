@@ -1,0 +1,45 @@
+{
+    "name": "pokeapi",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development",
+        "api:cache": "npm run api:generate cache-only",
+        "api:generate": "node scripts/generate-api.js",
+        "api:build": "npm run api:cache && npm run api:mogrify && npm run api:generate",
+        "api:mogrify": "npm run api:mogrify:large",
+        "api:mogrify:large": "npm run api:trim:large && npm run api:align:large",
+        "api:mogrify:thumb": "npm run api:trim:thumb && npm run api:align:thumb",
+        "api:trim:thumb": "mogrify -trim -fuzz '3%' tmp/pokemon/*.thumb*.png",
+        "api:trim:large": "mogrify -trim -fuzz '3%' tmp/pokemon/*.large*.png",
+        "api:align:thumb": "mogrify -resize 96x96 -gravity center -background none -extent 96x96 tmp/pokemon/*.thumb*.png",
+        "api:align:large": "mogrify -resize 475x475 -gravity center -background none -extent 475x475 tmp/pokemon/*.large*.png"
+    },
+    "keywords": [],
+    "author": "Sidney Liebrand",
+    "license": "MIT",
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "bracketSpacing": false
+    },
+    "devDependencies": {
+        "@babel/core": "^7.19.1",
+        "@babel/preset-env": "^7.19.1",
+        "babel-loader": "^8.2.5",
+        "babel-preset-solid": "^1.5.5",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "prettier": "^2.7.1",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.0"
+    },
+    "dependencies": {
+        "solid-js": "^1.5.5"
+    }
+}
