@@ -6,7 +6,7 @@
 }
 
 .application {
-    --pokemon-list-width: minmax(300px, 20%);
+    --pokemon-list-width: minmax(300px, 25%);
     --pokemon-list-columns: 3;
     --team-height: 200px;
     --padding: 8px;

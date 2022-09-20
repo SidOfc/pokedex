@@ -2,11 +2,18 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
-    entry: './src/application',
+    entry: './src/main',
     output: {
-        filename: 'application.js',
+        filename: '[name].app.js',
         path: path.resolve('dist'),
         clean: true,
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        alias: {
+            '@src': path.resolve('src'),
+            '@components': path.resolve('src', 'components'),
+        },
     },
     plugins: [
         new HtmlWebpackPlugin({

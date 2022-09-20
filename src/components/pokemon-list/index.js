@@ -1,7 +1,7 @@
 import {For, onMount, onCleanup} from 'solid-js';
-import {state, setState} from '../state.js';
 import styles from './style.module.css';
-import {Pokemon} from '../pokemon/index.js';
+import {Pokemon} from '@components/pokemon';
+import {state, setState} from '@src/state';
 
 async function list() {
     if (state.pokemon.count === 0) {
