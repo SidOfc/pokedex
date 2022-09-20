@@ -1,13 +1,13 @@
 import styles from './style.module.css';
 
-export function Pokemon({item}) {
+export function Pokemon(props) {
     return (
-        <div className={styles.container} title={item.name}>
-            <div className={styles.thumbnailContainer}>
-                <img loading="lazy" src={item.images.thumbRegular} />
+        <div class={styles.container} title={props.item.name}>
+            <div class={styles.thumbnailContainer}>
+                <img loading="lazy" src={props.item.images.thumbRegular} />
             </div>
-            <div className={styles.identifier}>
-                {item.id.toString().padStart(3, '0')}
+            <div class={styles.identifier}>
+                {props.item.id.toString().padStart(3, '0')}
             </div>
         </div>
     );

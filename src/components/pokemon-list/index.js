@@ -1,4 +1,4 @@
-import {For, onMount, onCleanup} from 'solid-js';
+import {For, onMount} from 'solid-js';
 import styles from './style.module.css';
 import {Pokemon} from '@components/pokemon';
 import {state, setState} from '@src/state';
@@ -18,7 +18,7 @@ export function PokemonList() {
     onMount(list);
 
     return (
-        <aside className={styles.container}>
+        <aside class={styles.container}>
             <For each={state.pokemon.results}>
                 {(item) => <Pokemon item={item} />}
             </For>
