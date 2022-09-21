@@ -1,3 +1,60 @@
 .container {
-    background-color: gray;
+    background-color: white;
+    display: flex;
+}
+
+.screen {
+    position: relative;
+    flex: 1 1 auto;
+    display: grid;
+    gap: var(--padding);
+    padding: var(--padding);
+    padding-right: 0;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content min-content;
+    grid-template-areas:
+        'image stats'
+        'name name';
+    border-radius: var(--radius);
+}
+
+.name {
+    position: relative;
+    grid-area: name;
+    margin: 0;
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding: var(--padding);
+}
+
+.image {
+    position: relative;
+    grid-area: image;
+    width: 320px;
+    height: 320px;
+    padding: calc(var(--padding) * 2);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+}
+
+.image img {
+    position: relative;
+    max-width: 100%;
+}
+
+.stats {
+    position: relative;
+    grid-area: stats;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+}
+
+.stats canvas {
+    width: 320px;
+    height: 320px;
 }

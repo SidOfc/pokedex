@@ -12,12 +12,14 @@ export default {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
         alias: {
             '@src': path.resolve('src'),
+            '@actions': path.resolve('src', 'actions'),
             '@components': path.resolve('src', 'components'),
         },
     },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Pokédex',
+            favicon: 'dist/favicon.svg',
         }),
     ],
     module: {

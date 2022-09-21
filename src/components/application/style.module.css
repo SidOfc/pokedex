@@ -6,17 +6,56 @@
 }
 
 .application {
-    --pokemon-list-width: minmax(300px, 25%);
-    --pokemon-list-columns: 3;
-    --team-height: 200px;
-    --padding: 8px;
     --radius: 4px;
+    --padding: 8px;
+    --list-width: minmax(300px, 25%);
+    --list-columns: 3;
+    --team-height: 200px;
+    --box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+
+    --type-normal: #a8a77a;
+    --type-fire: #ee8130;
+    --type-water: #6390f0;
+    --type-electric: #f7d02c;
+    --type-grass: #7ac74c;
+    --type-ice: #96d9d6;
+    --type-fighting: #c22e28;
+    --type-poison: #a33ea1;
+    --type-ground: #e2bf65;
+    --type-flying: #a98ff3;
+    --type-psychic: #f95587;
+    --type-bug: #a6b91a;
+    --type-rock: #b6a136;
+    --type-ghost: #735797;
+    --type-dragon: #6f35fc;
+    --type-dark: #705746;
+    --type-steel: #b7b7ce;
+    --type-fairy: #d685ad;
+
     font-family: sans-serif;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr var(--pokemon-list-width);
+    grid-template-columns: 1fr var(--list-width);
     grid-template-rows: 1fr var(--team-height);
     width: inherit;
     height: inherit;
-    background-color: lightblue;
+}
+
+.application::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+    transition: background 1s ease-out;
+    background-image: linear-gradient(
+        135deg,
+        var(--gradient-from),
+        var(--gradient-from) 30%,
+        var(--gradient-to) 70%
+    );
 }

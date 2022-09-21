@@ -1,12 +1,30 @@
 .container {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+}
+
+.search {
+    margin: var(--padding);
+    padding: var(--padding);
+    margin-bottom: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius);
+    outline: none;
+}
+
+.items {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(var(--pokemon-list-columns), minmax(0, 1fr));
+    grid-template-columns: repeat(var(--list-columns), minmax(0, 1fr));
     grid-template-rows: auto;
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
     gap: var(--padding);
-    background-color: white;
     overflow: auto;
-    padding: var(--padding);
+    margin: var(--padding);
 }
