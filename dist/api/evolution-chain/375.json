@@ -1,0 +1,1 @@
+{"incineroar":{"from":"torracat","to":[]},"torracat":{"from":"litten","to":[{"name":"incineroar","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]},"litten":{"from":null,"to":[{"name":"torracat","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

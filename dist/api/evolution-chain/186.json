@@ -1,0 +1,1 @@
+{"glalie":{"from":"snorunt","to":[]},"froslass":{"from":"snorunt","to":[]},"snorunt":{"from":null,"to":[{"name":"glalie","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]},{"name":"froslass","methods":[{"trigger":"use-item","conditions":{"gender":1,"item":"dawn-stone"}}]}]}}

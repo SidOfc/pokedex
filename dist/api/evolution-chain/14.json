@@ -1,0 +1,1 @@
+{"clefable":{"from":"clefairy","to":[]},"clefairy":{"from":"cleffa","to":[{"name":"clefable","methods":[{"trigger":"use-item","conditions":{"item":"moon-stone"}}]}]},"cleffa":{"from":null,"to":[{"name":"clefairy","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

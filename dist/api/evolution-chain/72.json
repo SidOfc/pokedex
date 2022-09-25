@@ -1,0 +1,1 @@
+{"snorlax":{"from":"munchlax","to":[]},"munchlax":{"from":null,"to":[{"name":"snorlax","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

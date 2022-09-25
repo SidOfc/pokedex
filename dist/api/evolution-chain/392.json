@@ -1,0 +1,1 @@
+{"tsareena":{"from":"steenee","to":[]},"steenee":{"from":"bounsweet","to":[{"name":"tsareena","methods":[{"trigger":"level-up","conditions":{}}]}]},"bounsweet":{"from":null,"to":[{"name":"steenee","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

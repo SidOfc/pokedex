@@ -1,0 +1,1 @@
+{"obstagoon":{"from":"linoone","to":[]},"linoone":{"from":"zigzagoon","to":[{"name":"obstagoon","methods":[{"trigger":"level-up","conditions":{"minLevel":35,"timeOfDay":"night"}}]}]},"zigzagoon":{"from":null,"to":[{"name":"linoone","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

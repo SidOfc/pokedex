@@ -1,0 +1,1 @@
+{"mandibuzz":{"from":"vullaby","to":[]},"vullaby":{"from":null,"to":[{"name":"mandibuzz","methods":[{"trigger":"level-up","conditions":{"minLevel":54}}]}]}}

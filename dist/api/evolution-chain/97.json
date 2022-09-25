@@ -1,0 +1,1 @@
+{"honchkrow":{"from":"murkrow","to":[]},"murkrow":{"from":null,"to":[{"name":"honchkrow","methods":[{"trigger":"use-item","conditions":{"item":"dusk-stone"}}]}]}}

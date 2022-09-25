@@ -1,0 +1,1 @@
+{"meganium":{"from":"bayleef","to":[]},"bayleef":{"from":"chikorita","to":[{"name":"meganium","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]},"chikorita":{"from":null,"to":[{"name":"bayleef","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

@@ -1,0 +1,1 @@
+{"beedrill":{"from":"kakuna","to":[]},"kakuna":{"from":"weedle","to":[{"name":"beedrill","methods":[{"trigger":"level-up","conditions":{"minLevel":10}}]}]},"weedle":{"from":null,"to":[{"name":"kakuna","methods":[{"trigger":"level-up","conditions":{"minLevel":7}}]}]}}

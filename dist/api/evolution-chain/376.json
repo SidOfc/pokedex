@@ -1,0 +1,1 @@
+{"primarina":{"from":"brionne","to":[]},"brionne":{"from":"popplio","to":[{"name":"primarina","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]},"popplio":{"from":null,"to":[{"name":"brionne","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

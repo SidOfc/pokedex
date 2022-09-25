@@ -1,0 +1,1 @@
+{"cherrim":{"from":"cherubi","to":[]},"cherubi":{"from":null,"to":[{"name":"cherrim","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

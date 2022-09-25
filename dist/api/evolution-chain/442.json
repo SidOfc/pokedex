@@ -1,0 +1,1 @@
+{"flapple":{"from":"applin","to":[]},"appletun":{"from":"applin","to":[]},"applin":{"from":null,"to":[{"name":"flapple","methods":[{"trigger":"use-item","conditions":{"item":"tart-apple"}}]},{"name":"appletun","methods":[{"trigger":"use-item","conditions":{"item":"sweet-apple"}}]}]}}

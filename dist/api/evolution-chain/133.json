@@ -1,0 +1,1 @@
+{"mightyena":{"from":"poochyena","to":[]},"poochyena":{"from":null,"to":[{"name":"mightyena","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

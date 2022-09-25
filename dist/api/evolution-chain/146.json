@@ -1,0 +1,1 @@
+{"hariyama":{"from":"makuhita","to":[]},"makuhita":{"from":null,"to":[{"name":"hariyama","methods":[{"trigger":"level-up","conditions":{"minLevel":24}}]}]}}

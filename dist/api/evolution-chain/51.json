@@ -1,0 +1,1 @@
+{"blissey":{"from":"chansey","to":[]},"chansey":{"from":"happiny","to":[{"name":"blissey","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]},"happiny":{"from":null,"to":[{"name":"chansey","methods":[{"trigger":"level-up","conditions":{"heldItem":"oval-stone","timeOfDay":"day"}}]}]}}

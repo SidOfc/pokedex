@@ -1,0 +1,1 @@
+{"abomasnow":{"from":"snover","to":[]},"snover":{"from":null,"to":[{"name":"abomasnow","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

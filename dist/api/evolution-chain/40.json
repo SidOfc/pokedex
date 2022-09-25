@@ -1,0 +1,1 @@
+{"gengar":{"from":"haunter","to":[]},"haunter":{"from":"gastly","to":[{"name":"gengar","methods":[{"trigger":"trade","conditions":{}}]}]},"gastly":{"from":null,"to":[{"name":"haunter","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

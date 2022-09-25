@@ -1,0 +1,1 @@
+{"rillaboom":{"from":"thwackey","to":[]},"thwackey":{"from":"grookey","to":[{"name":"rillaboom","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]},"grookey":{"from":null,"to":[{"name":"thwackey","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

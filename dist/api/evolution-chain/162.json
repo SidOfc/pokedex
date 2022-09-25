@@ -1,0 +1,1 @@
+{"camerupt":{"from":"numel","to":[]},"numel":{"from":null,"to":[{"name":"camerupt","methods":[{"trigger":"level-up","conditions":{"minLevel":33}}]}]}}

@@ -1,0 +1,1 @@
+{"furret":{"from":"sentret","to":[]},"sentret":{"from":null,"to":[{"name":"furret","methods":[{"trigger":"level-up","conditions":{"minLevel":15}}]}]}}

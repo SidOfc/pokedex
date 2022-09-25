@@ -1,0 +1,1 @@
+{"greninja":{"from":"frogadier","to":[]},"frogadier":{"from":"froakie","to":[{"name":"greninja","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"froakie":{"from":null,"to":[{"name":"frogadier","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

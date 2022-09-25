@@ -1,0 +1,1 @@
+{"golem":{"from":"graveler","to":[]},"graveler":{"from":"geodude","to":[{"name":"golem","methods":[{"trigger":"trade","conditions":{}}]}]},"geodude":{"from":null,"to":[{"name":"graveler","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

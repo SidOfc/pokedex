@@ -1,0 +1,1 @@
+{"sharpedo":{"from":"carvanha","to":[]},"carvanha":{"from":null,"to":[{"name":"sharpedo","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

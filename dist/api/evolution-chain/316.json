@@ -1,0 +1,1 @@
+{"golurk":{"from":"golett","to":[]},"golett":{"from":null,"to":[{"name":"golurk","methods":[{"trigger":"level-up","conditions":{"minLevel":43}}]}]}}

@@ -1,0 +1,1 @@
+{"dragonite":{"from":"dragonair","to":[]},"dragonair":{"from":"dratini","to":[{"name":"dragonite","methods":[{"trigger":"level-up","conditions":{"minLevel":55}}]}]},"dratini":{"from":null,"to":[{"name":"dragonair","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

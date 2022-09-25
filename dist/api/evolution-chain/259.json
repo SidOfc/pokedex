@@ -1,0 +1,1 @@
+{"watchog":{"from":"patrat","to":[]},"patrat":{"from":null,"to":[{"name":"watchog","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

@@ -1,0 +1,1 @@
+{"wailord":{"from":"wailmer","to":[]},"wailmer":{"from":null,"to":[{"name":"wailord","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

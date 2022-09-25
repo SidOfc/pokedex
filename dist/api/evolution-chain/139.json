@@ -1,0 +1,1 @@
+{"pelipper":{"from":"wingull","to":[]},"wingull":{"from":null,"to":[{"name":"pelipper","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

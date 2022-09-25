@@ -1,0 +1,1 @@
+{"darmanitan":{"from":"darumaka","to":[]},"darumaka":{"from":null,"to":[{"name":"darmanitan","methods":[{"trigger":"level-up","conditions":{"minLevel":35}},{"trigger":"use-item","conditions":{"item":"ice-stone"}}]}]}}

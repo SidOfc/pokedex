@@ -1,0 +1,1 @@
+{"meowstic":{"from":"espurr","to":[]},"espurr":{"from":null,"to":[{"name":"meowstic","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

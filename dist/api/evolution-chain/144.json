@@ -1,0 +1,1 @@
+{"ninjask":{"from":"nincada","to":[]},"shedinja":{"from":"nincada","to":[]},"nincada":{"from":null,"to":[{"name":"ninjask","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]},{"name":"shedinja","methods":[{"trigger":"shed","conditions":{}}]}]}}

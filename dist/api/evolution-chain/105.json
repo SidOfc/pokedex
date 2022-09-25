@@ -1,0 +1,1 @@
+{"granbull":{"from":"snubbull","to":[]},"snubbull":{"from":null,"to":[{"name":"granbull","methods":[{"trigger":"level-up","conditions":{"minLevel":23}}]}]}}

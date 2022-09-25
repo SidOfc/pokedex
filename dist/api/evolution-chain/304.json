@@ -1,0 +1,1 @@
+{"ferrothorn":{"from":"ferroseed","to":[]},"ferroseed":{"from":null,"to":[{"name":"ferrothorn","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

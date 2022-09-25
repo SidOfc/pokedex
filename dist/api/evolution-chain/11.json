@@ -1,0 +1,1 @@
+{"sandslash":{"from":"sandshrew","to":[]},"sandshrew":{"from":null,"to":[{"name":"sandslash","methods":[{"trigger":"level-up","conditions":{"minLevel":22}},{"trigger":"use-item","conditions":{"item":"ice-stone"}}]}]}}

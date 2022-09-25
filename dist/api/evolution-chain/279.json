@@ -1,0 +1,1 @@
+{"lilligant":{"from":"petilil","to":[]},"petilil":{"from":null,"to":[{"name":"lilligant","methods":[{"trigger":"use-item","conditions":{"item":"sun-stone"}}]}]}}

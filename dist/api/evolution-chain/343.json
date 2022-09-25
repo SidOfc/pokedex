@@ -1,0 +1,1 @@
+{"pyroar":{"from":"litleo","to":[]},"litleo":{"from":null,"to":[{"name":"pyroar","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

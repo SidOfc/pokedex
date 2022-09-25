@@ -1,0 +1,1 @@
+{"mamoswine":{"from":"piloswine","to":[]},"piloswine":{"from":"swinub","to":[{"name":"mamoswine","methods":[{"trigger":"level-up","conditions":{}}]}]},"swinub":{"from":null,"to":[{"name":"piloswine","methods":[{"trigger":"level-up","conditions":{"minLevel":33}}]}]}}

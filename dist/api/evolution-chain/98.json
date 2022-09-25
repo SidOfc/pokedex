@@ -1,0 +1,1 @@
+{"mismagius":{"from":"misdreavus","to":[]},"misdreavus":{"from":null,"to":[{"name":"mismagius","methods":[{"trigger":"use-item","conditions":{"item":"dusk-stone"}}]}]}}

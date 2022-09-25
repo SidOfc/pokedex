@@ -1,0 +1,1 @@
+{"jynx":{"from":"smoochum","to":[]},"smoochum":{"from":null,"to":[{"name":"jynx","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

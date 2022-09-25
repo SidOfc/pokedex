@@ -1,0 +1,1 @@
+{"conkeldurr":{"from":"gurdurr","to":[]},"gurdurr":{"from":"timburr","to":[{"name":"conkeldurr","methods":[{"trigger":"trade","conditions":{}}]}]},"timburr":{"from":null,"to":[{"name":"gurdurr","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

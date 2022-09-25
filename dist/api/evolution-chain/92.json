@@ -1,0 +1,1 @@
+{"jumpluff":{"from":"skiploom","to":[]},"skiploom":{"from":"hoppip","to":[{"name":"jumpluff","methods":[{"trigger":"level-up","conditions":{"minLevel":27}}]}]},"hoppip":{"from":null,"to":[{"name":"skiploom","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

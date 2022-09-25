@@ -1,0 +1,1 @@
+{"torterra":{"from":"grotle","to":[]},"grotle":{"from":"turtwig","to":[{"name":"torterra","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]},"turtwig":{"from":null,"to":[{"name":"grotle","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

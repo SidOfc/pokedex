@@ -1,0 +1,1 @@
+{"gumshoos":{"from":"yungoos","to":[]},"yungoos":{"from":null,"to":[{"name":"gumshoos","methods":[{"trigger":"level-up","conditions":{"minLevel":20,"timeOfDay":"day"}}]}]}}

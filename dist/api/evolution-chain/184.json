@@ -1,0 +1,1 @@
+{"chimecho":{"from":"chingling","to":[]},"chingling":{"from":null,"to":[{"name":"chimecho","methods":[{"trigger":"level-up","conditions":{"minHappiness":220,"timeOfDay":"night"}}]}]}}

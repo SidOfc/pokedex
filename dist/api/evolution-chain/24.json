@@ -1,0 +1,1 @@
+{"primeape":{"from":"mankey","to":[]},"mankey":{"from":null,"to":[{"name":"primeape","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]}}

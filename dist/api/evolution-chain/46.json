@@ -1,0 +1,1 @@
+{"marowak":{"from":"cubone","to":[]},"cubone":{"from":null,"to":[{"name":"marowak","methods":[{"trigger":"level-up","conditions":{"minLevel":28}},{"trigger":"level-up","conditions":{"minLevel":28,"timeOfDay":"night"}}]}]}}

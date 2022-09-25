@@ -1,0 +1,1 @@
+{"persian":{"from":"meowth","to":[]},"perrserker":{"from":"meowth","to":[]},"meowth":{"from":null,"to":[{"name":"persian","methods":[{"trigger":"level-up","conditions":{"minLevel":28}},{"trigger":"level-up","conditions":{"minHappiness":160}}]},{"name":"perrserker","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]}}

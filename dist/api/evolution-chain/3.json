@@ -1,0 +1,1 @@
+{"blastoise":{"from":"wartortle","to":[]},"wartortle":{"from":"squirtle","to":[{"name":"blastoise","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"squirtle":{"from":null,"to":[{"name":"wartortle","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

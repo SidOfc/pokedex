@@ -1,0 +1,1 @@
+{"houndoom":{"from":"houndour","to":[]},"houndour":{"from":null,"to":[{"name":"houndoom","methods":[{"trigger":"level-up","conditions":{"minLevel":24}}]}]}}

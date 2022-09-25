@@ -1,0 +1,1 @@
+{"rapidash":{"from":"ponyta","to":[]},"ponyta":{"from":null,"to":[{"name":"rapidash","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

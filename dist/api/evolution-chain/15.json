@@ -1,0 +1,1 @@
+{"ninetales":{"from":"vulpix","to":[]},"vulpix":{"from":null,"to":[{"name":"ninetales","methods":[{"trigger":"use-item","conditions":{"item":"fire-stone"}},{"trigger":"use-item","conditions":{"item":"ice-stone"}}]}]}}

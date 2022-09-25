@@ -1,0 +1,1 @@
+{"shiftry":{"from":"nuzleaf","to":[]},"nuzleaf":{"from":"seedot","to":[{"name":"shiftry","methods":[{"trigger":"use-item","conditions":{"item":"leaf-stone"}}]}]},"seedot":{"from":null,"to":[{"name":"nuzleaf","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

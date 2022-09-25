@@ -1,0 +1,1 @@
+{"grimmsnarl":{"from":"morgrem","to":[]},"morgrem":{"from":"impidimp","to":[{"name":"grimmsnarl","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]},"impidimp":{"from":null,"to":[{"name":"morgrem","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

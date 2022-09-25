@@ -1,0 +1,1 @@
+{"gigalith":{"from":"boldore","to":[]},"boldore":{"from":"roggenrola","to":[{"name":"gigalith","methods":[{"trigger":"trade","conditions":{}}]}]},"roggenrola":{"from":null,"to":[{"name":"boldore","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

@@ -1,0 +1,1 @@
+{"skuntank":{"from":"stunky","to":[]},"stunky":{"from":null,"to":[{"name":"skuntank","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]}}

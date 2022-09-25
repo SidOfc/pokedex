@@ -1,0 +1,1 @@
+{"dewgong":{"from":"seel","to":[]},"seel":{"from":null,"to":[{"name":"dewgong","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]}}

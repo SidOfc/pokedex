@@ -1,0 +1,1 @@
+{"ludicolo":{"from":"lombre","to":[]},"lombre":{"from":"lotad","to":[{"name":"ludicolo","methods":[{"trigger":"use-item","conditions":{"item":"water-stone"}}]}]},"lotad":{"from":null,"to":[{"name":"lombre","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

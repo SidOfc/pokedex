@@ -1,0 +1,1 @@
+{"silvally":{"from":"type-null","to":[]},"type-null":{"from":null,"to":[{"name":"silvally","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

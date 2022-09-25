@@ -1,0 +1,1 @@
+{"drapion":{"from":"skorupi","to":[]},"skorupi":{"from":null,"to":[{"name":"drapion","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

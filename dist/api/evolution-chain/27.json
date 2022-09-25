@@ -1,0 +1,1 @@
+{"alakazam":{"from":"kadabra","to":[]},"kadabra":{"from":"abra","to":[{"name":"alakazam","methods":[{"trigger":"trade","conditions":{}}]}]},"abra":{"from":null,"to":[{"name":"kadabra","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

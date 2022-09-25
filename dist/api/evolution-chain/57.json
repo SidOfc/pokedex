@@ -1,0 +1,1 @@
+{"mr-rime":{"from":"mr-mime","to":[]},"mr-mime":{"from":"mime-jr","to":[{"name":"mr-rime","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]},"mime-jr":{"from":null,"to":[{"name":"mr-mime","methods":[{"trigger":"level-up","conditions":{}}]}]}}

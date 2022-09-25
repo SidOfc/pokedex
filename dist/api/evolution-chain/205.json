@@ -1,0 +1,1 @@
+{"empoleon":{"from":"prinplup","to":[]},"prinplup":{"from":"piplup","to":[{"name":"empoleon","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"piplup":{"from":null,"to":[{"name":"prinplup","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

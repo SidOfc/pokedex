@@ -1,0 +1,1 @@
+{"porygon-z":{"from":"porygon2","to":[]},"porygon2":{"from":"porygon","to":[{"name":"porygon-z","methods":[{"trigger":"trade","conditions":{"heldItem":"dubious-disc"}}]}]},"porygon":{"from":null,"to":[{"name":"porygon2","methods":[{"trigger":"trade","conditions":{"heldItem":"up-grade"}}]}]}}

@@ -1,0 +1,1 @@
+{"cofagrigus":{"from":"yamask","to":[]},"runerigus":{"from":"yamask","to":[]},"yamask":{"from":null,"to":[{"name":"cofagrigus","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]},{"name":"runerigus","methods":[{"trigger":"take-damage","conditions":{}}]}]}}

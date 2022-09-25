@@ -1,0 +1,1 @@
+{"chesnaught":{"from":"quilladin","to":[]},"quilladin":{"from":"chespin","to":[{"name":"chesnaught","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"chespin":{"from":null,"to":[{"name":"quilladin","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

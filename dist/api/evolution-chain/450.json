@@ -1,0 +1,1 @@
+{"hatterene":{"from":"hattrem","to":[]},"hattrem":{"from":"hatenna","to":[{"name":"hatterene","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]},"hatenna":{"from":null,"to":[{"name":"hattrem","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

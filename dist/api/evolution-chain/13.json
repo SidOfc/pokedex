@@ -1,0 +1,1 @@
+{"nidoking":{"from":"nidorino","to":[]},"nidorino":{"from":"nidoran-m","to":[{"name":"nidoking","methods":[{"trigger":"use-item","conditions":{"item":"moon-stone"}}]}]},"nidoran-m":{"from":null,"to":[{"name":"nidorino","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

@@ -1,0 +1,1 @@
+{"sunflora":{"from":"sunkern","to":[]},"sunkern":{"from":null,"to":[{"name":"sunflora","methods":[{"trigger":"use-item","conditions":{"item":"sun-stone"}}]}]}}

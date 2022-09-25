@@ -1,0 +1,1 @@
+{"swellow":{"from":"taillow","to":[]},"taillow":{"from":null,"to":[{"name":"swellow","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

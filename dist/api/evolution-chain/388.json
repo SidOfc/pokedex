@@ -1,0 +1,1 @@
+{"lurantis":{"from":"fomantis","to":[]},"fomantis":{"from":null,"to":[{"name":"lurantis","methods":[{"trigger":"level-up","conditions":{"minLevel":34,"timeOfDay":"day"}}]}]}}

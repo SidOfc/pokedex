@@ -1,0 +1,1 @@
+{"talonflame":{"from":"fletchinder","to":[]},"fletchinder":{"from":"fletchling","to":[{"name":"talonflame","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]},"fletchling":{"from":null,"to":[{"name":"fletchinder","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

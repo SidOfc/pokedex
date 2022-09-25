@@ -1,0 +1,1 @@
+{"hippowdon":{"from":"hippopotas","to":[]},"hippopotas":{"from":null,"to":[{"name":"hippowdon","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]}}

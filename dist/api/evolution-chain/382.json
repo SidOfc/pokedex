@@ -1,0 +1,1 @@
+{"ribombee":{"from":"cutiefly","to":[]},"cutiefly":{"from":null,"to":[{"name":"ribombee","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

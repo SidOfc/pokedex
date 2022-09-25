@@ -1,0 +1,1 @@
+{"swalot":{"from":"gulpin","to":[]},"gulpin":{"from":null,"to":[{"name":"swalot","methods":[{"trigger":"level-up","conditions":{"minLevel":26}}]}]}}

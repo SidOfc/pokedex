@@ -1,0 +1,1 @@
+{"centiskorch":{"from":"sizzlipede","to":[]},"sizzlipede":{"from":null,"to":[{"name":"centiskorch","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]}}

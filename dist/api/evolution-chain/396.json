@@ -1,0 +1,1 @@
+{"golisopod":{"from":"wimpod","to":[]},"wimpod":{"from":null,"to":[{"name":"golisopod","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

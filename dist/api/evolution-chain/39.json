@@ -1,0 +1,1 @@
+{"cloyster":{"from":"shellder","to":[]},"shellder":{"from":null,"to":[{"name":"cloyster","methods":[{"trigger":"use-item","conditions":{"item":"water-stone"}}]}]}}

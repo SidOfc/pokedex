@@ -1,0 +1,1 @@
+{"aurorus":{"from":"amaura","to":[]},"amaura":{"from":null,"to":[{"name":"aurorus","methods":[{"trigger":"level-up","conditions":{"minLevel":39,"timeOfDay":"night"}}]}]}}

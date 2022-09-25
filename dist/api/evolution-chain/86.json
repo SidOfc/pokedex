@@ -1,0 +1,1 @@
+{"lanturn":{"from":"chinchou","to":[]},"chinchou":{"from":null,"to":[{"name":"lanturn","methods":[{"trigger":"level-up","conditions":{"minLevel":27}}]}]}}

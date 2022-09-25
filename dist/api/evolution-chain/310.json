@@ -1,0 +1,1 @@
+{"beartic":{"from":"cubchoo","to":[]},"cubchoo":{"from":null,"to":[{"name":"beartic","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

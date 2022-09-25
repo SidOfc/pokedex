@@ -1,0 +1,1 @@
+{"hydreigon":{"from":"zweilous","to":[]},"zweilous":{"from":"deino","to":[{"name":"hydreigon","methods":[{"trigger":"level-up","conditions":{"minLevel":64}}]}]},"deino":{"from":null,"to":[{"name":"zweilous","methods":[{"trigger":"level-up","conditions":{"minLevel":50}}]}]}}

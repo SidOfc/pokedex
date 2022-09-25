@@ -1,0 +1,1 @@
+{"scolipede":{"from":"whirlipede","to":[]},"whirlipede":{"from":"venipede","to":[{"name":"scolipede","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]},"venipede":{"from":null,"to":[{"name":"whirlipede","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

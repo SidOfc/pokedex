@@ -1,0 +1,1 @@
+{"simisear":{"from":"pansear","to":[]},"pansear":{"from":null,"to":[{"name":"simisear","methods":[{"trigger":"use-item","conditions":{"item":"fire-stone"}}]}]}}

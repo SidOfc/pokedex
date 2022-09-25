@@ -1,0 +1,1 @@
+{"coalossal":{"from":"carkol","to":[]},"carkol":{"from":"rolycoly","to":[{"name":"coalossal","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]},"rolycoly":{"from":null,"to":[{"name":"carkol","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

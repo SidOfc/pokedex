@@ -1,0 +1,1 @@
+{"walrein":{"from":"sealeo","to":[]},"sealeo":{"from":"spheal","to":[{"name":"walrein","methods":[{"trigger":"level-up","conditions":{"minLevel":44}}]}]},"spheal":{"from":null,"to":[{"name":"sealeo","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

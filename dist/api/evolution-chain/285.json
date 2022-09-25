@@ -1,0 +1,1 @@
+{"scrafty":{"from":"scraggy","to":[]},"scraggy":{"from":null,"to":[{"name":"scrafty","methods":[{"trigger":"level-up","conditions":{"minLevel":39}}]}]}}

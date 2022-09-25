@@ -1,0 +1,1 @@
+{"araquanid":{"from":"dewpider","to":[]},"dewpider":{"from":null,"to":[{"name":"araquanid","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

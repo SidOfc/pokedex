@@ -1,0 +1,1 @@
+{"hypno":{"from":"drowzee","to":[]},"drowzee":{"from":null,"to":[{"name":"hypno","methods":[{"trigger":"level-up","conditions":{"minLevel":26}}]}]}}

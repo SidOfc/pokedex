@@ -1,0 +1,1 @@
+{"charizard":{"from":"charmeleon","to":[]},"charmeleon":{"from":"charmander","to":[{"name":"charizard","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"charmander":{"from":null,"to":[{"name":"charmeleon","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

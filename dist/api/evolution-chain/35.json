@@ -1,0 +1,1 @@
+{"sirfetchd":{"from":"farfetchd","to":[]},"farfetchd":{"from":null,"to":[{"name":"sirfetchd","methods":[{"trigger":"three-critical-hits","conditions":{}}]}]}}

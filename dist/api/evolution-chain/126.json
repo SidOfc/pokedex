@@ -1,0 +1,1 @@
+{"tyranitar":{"from":"pupitar","to":[]},"pupitar":{"from":"larvitar","to":[{"name":"tyranitar","methods":[{"trigger":"level-up","conditions":{"minLevel":55}}]}]},"larvitar":{"from":null,"to":[{"name":"pupitar","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

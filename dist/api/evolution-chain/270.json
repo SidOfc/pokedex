@@ -1,0 +1,1 @@
+{"excadrill":{"from":"drilbur","to":[]},"drilbur":{"from":null,"to":[{"name":"excadrill","methods":[{"trigger":"level-up","conditions":{"minLevel":31}}]}]}}

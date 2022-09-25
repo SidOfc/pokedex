@@ -1,0 +1,1 @@
+{"octillery":{"from":"remoraid","to":[]},"remoraid":{"from":null,"to":[{"name":"octillery","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

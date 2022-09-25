@@ -1,0 +1,1 @@
+{"banette":{"from":"shuppet","to":[]},"shuppet":{"from":null,"to":[{"name":"banette","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

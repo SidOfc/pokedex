@@ -1,0 +1,1 @@
+{"feraligatr":{"from":"croconaw","to":[]},"croconaw":{"from":"totodile","to":[{"name":"feraligatr","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]},"totodile":{"from":null,"to":[{"name":"croconaw","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

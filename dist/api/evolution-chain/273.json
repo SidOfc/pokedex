@@ -1,0 +1,1 @@
+{"seismitoad":{"from":"palpitoad","to":[]},"palpitoad":{"from":"tympole","to":[{"name":"seismitoad","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"tympole":{"from":null,"to":[{"name":"palpitoad","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

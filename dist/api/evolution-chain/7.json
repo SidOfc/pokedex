@@ -1,0 +1,1 @@
+{"raticate":{"from":"rattata","to":[]},"rattata":{"from":null,"to":[{"name":"raticate","methods":[{"trigger":"level-up","conditions":{"minLevel":20}},{"trigger":"level-up","conditions":{"minLevel":20,"timeOfDay":"night"}}]}]}}

@@ -1,0 +1,1 @@
+{"lopunny":{"from":"buneary","to":[]},"buneary":{"from":null,"to":[{"name":"lopunny","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

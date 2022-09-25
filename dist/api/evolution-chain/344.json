@@ -1,0 +1,1 @@
+{"florges":{"from":"floette","to":[]},"floette":{"from":"flabebe","to":[{"name":"florges","methods":[{"trigger":"use-item","conditions":{"item":"shiny-stone"}}]}]},"flabebe":{"from":null,"to":[{"name":"floette","methods":[{"trigger":"level-up","conditions":{"minLevel":19}}]}]}}

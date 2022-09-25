@@ -1,0 +1,1 @@
+{"simipour":{"from":"panpour","to":[]},"panpour":{"from":null,"to":[{"name":"simipour","methods":[{"trigger":"use-item","conditions":{"item":"water-stone"}}]}]}}

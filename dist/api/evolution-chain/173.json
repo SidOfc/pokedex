@@ -1,0 +1,1 @@
+{"whiscash":{"from":"barboach","to":[]},"barboach":{"from":null,"to":[{"name":"whiscash","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

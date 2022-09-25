@@ -1,0 +1,1 @@
+{"electivire":{"from":"electabuzz","to":[]},"electabuzz":{"from":"elekid","to":[{"name":"electivire","methods":[{"trigger":"trade","conditions":{"heldItem":"electirizer"}}]}]},"elekid":{"from":null,"to":[{"name":"electabuzz","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

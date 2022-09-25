@@ -1,0 +1,1 @@
+{"amoonguss":{"from":"foongus","to":[]},"foongus":{"from":null,"to":[{"name":"amoonguss","methods":[{"trigger":"level-up","conditions":{"minLevel":39}}]}]}}

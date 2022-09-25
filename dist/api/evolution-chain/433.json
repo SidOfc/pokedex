@@ -1,0 +1,1 @@
+{"greedent":{"from":"skwovet","to":[]},"skwovet":{"from":null,"to":[{"name":"greedent","methods":[{"trigger":"level-up","conditions":{"minLevel":24}}]}]}}

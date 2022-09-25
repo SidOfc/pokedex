@@ -1,0 +1,1 @@
+{"pidgeot":{"from":"pidgeotto","to":[]},"pidgeotto":{"from":"pidgey","to":[{"name":"pidgeot","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"pidgey":{"from":null,"to":[{"name":"pidgeotto","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

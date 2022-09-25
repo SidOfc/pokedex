@@ -1,0 +1,1 @@
+{"tyrantrum":{"from":"tyrunt","to":[]},"tyrunt":{"from":null,"to":[{"name":"tyrantrum","methods":[{"trigger":"level-up","conditions":{"minLevel":39,"timeOfDay":"day"}}]}]}}

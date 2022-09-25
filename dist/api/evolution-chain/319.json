@@ -1,0 +1,1 @@
+{"braviary":{"from":"rufflet","to":[]},"rufflet":{"from":null,"to":[{"name":"braviary","methods":[{"trigger":"level-up","conditions":{"minLevel":54}}]}]}}

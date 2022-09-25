@@ -1,0 +1,1 @@
+{"weezing":{"from":"koffing","to":[]},"koffing":{"from":null,"to":[{"name":"weezing","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

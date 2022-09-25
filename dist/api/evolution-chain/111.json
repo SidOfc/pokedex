@@ -1,0 +1,1 @@
+{"magcargo":{"from":"slugma","to":[]},"slugma":{"from":null,"to":[{"name":"magcargo","methods":[{"trigger":"level-up","conditions":{"minLevel":38}}]}]}}

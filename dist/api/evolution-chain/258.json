@@ -1,0 +1,1 @@
+{"samurott":{"from":"dewott","to":[]},"dewott":{"from":"oshawott","to":[{"name":"samurott","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"oshawott":{"from":null,"to":[{"name":"dewott","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

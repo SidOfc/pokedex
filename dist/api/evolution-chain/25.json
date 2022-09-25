@@ -1,0 +1,1 @@
+{"arcanine":{"from":"growlithe","to":[]},"growlithe":{"from":null,"to":[{"name":"arcanine","methods":[{"trigger":"use-item","conditions":{"item":"fire-stone"}}]}]}}

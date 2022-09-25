@@ -1,0 +1,1 @@
+{"cacturne":{"from":"cacnea","to":[]},"cacnea":{"from":null,"to":[{"name":"cacturne","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

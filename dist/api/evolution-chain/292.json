@@ -1,0 +1,1 @@
+{"cinccino":{"from":"minccino","to":[]},"minccino":{"from":null,"to":[{"name":"cinccino","methods":[{"trigger":"use-item","conditions":{"item":"shiny-stone"}}]}]}}

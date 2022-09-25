@@ -1,0 +1,1 @@
+{"venusaur":{"from":"ivysaur","to":[]},"ivysaur":{"from":"bulbasaur","to":[{"name":"venusaur","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]},"bulbasaur":{"from":null,"to":[{"name":"ivysaur","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

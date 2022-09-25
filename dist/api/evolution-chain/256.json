@@ -1,0 +1,1 @@
+{"serperior":{"from":"servine","to":[]},"servine":{"from":"snivy","to":[{"name":"serperior","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"snivy":{"from":null,"to":[{"name":"servine","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

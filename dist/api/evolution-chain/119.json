@@ -1,0 +1,1 @@
+{"donphan":{"from":"phanpy","to":[]},"phanpy":{"from":null,"to":[{"name":"donphan","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

@@ -1,0 +1,1 @@
+{"reuniclus":{"from":"duosion","to":[]},"duosion":{"from":"solosis","to":[{"name":"reuniclus","methods":[{"trigger":"level-up","conditions":{"minLevel":41}}]}]},"solosis":{"from":null,"to":[{"name":"duosion","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

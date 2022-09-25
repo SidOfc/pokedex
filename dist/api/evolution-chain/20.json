@@ -1,0 +1,1 @@
+{"venomoth":{"from":"venonat","to":[]},"venonat":{"from":null,"to":[{"name":"venomoth","methods":[{"trigger":"level-up","conditions":{"minLevel":31}}]}]}}

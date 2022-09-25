@@ -1,0 +1,1 @@
+{"krookodile":{"from":"krokorok","to":[]},"krokorok":{"from":"sandile","to":[{"name":"krookodile","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]},"sandile":{"from":null,"to":[{"name":"krokorok","methods":[{"trigger":"level-up","conditions":{"minLevel":29}}]}]}}

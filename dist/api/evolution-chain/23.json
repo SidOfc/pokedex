@@ -1,0 +1,1 @@
+{"golduck":{"from":"psyduck","to":[]},"psyduck":{"from":null,"to":[{"name":"golduck","methods":[{"trigger":"level-up","conditions":{"minLevel":33}}]}]}}

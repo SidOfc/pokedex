@@ -1,0 +1,1 @@
+{"noctowl":{"from":"hoothoot","to":[]},"hoothoot":{"from":null,"to":[{"name":"noctowl","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

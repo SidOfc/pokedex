@@ -1,0 +1,1 @@
+{"aegislash":{"from":"doublade","to":[]},"doublade":{"from":"honedge","to":[{"name":"aegislash","methods":[{"trigger":"use-item","conditions":{"item":"dusk-stone"}}]}]},"honedge":{"from":null,"to":[{"name":"doublade","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

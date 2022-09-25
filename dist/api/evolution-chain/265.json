@@ -1,0 +1,1 @@
+{"musharna":{"from":"munna","to":[]},"munna":{"from":null,"to":[{"name":"musharna","methods":[{"trigger":"use-item","conditions":{"item":"moon-stone"}}]}]}}

@@ -1,0 +1,1 @@
+{"victreebel":{"from":"weepinbell","to":[]},"weepinbell":{"from":"bellsprout","to":[{"name":"victreebel","methods":[{"trigger":"use-item","conditions":{"item":"leaf-stone"}}]}]},"bellsprout":{"from":null,"to":[{"name":"weepinbell","methods":[{"trigger":"level-up","conditions":{"minLevel":21}}]}]}}

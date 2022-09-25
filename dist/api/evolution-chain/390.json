@@ -1,0 +1,1 @@
+{"salazzle":{"from":"salandit","to":[]},"salandit":{"from":null,"to":[{"name":"salazzle","methods":[{"trigger":"level-up","conditions":{"gender":1,"minLevel":33}}]}]}}

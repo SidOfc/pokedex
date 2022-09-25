@@ -1,0 +1,1 @@
+{"stoutland":{"from":"herdier","to":[]},"herdier":{"from":"lillipup","to":[{"name":"stoutland","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]},"lillipup":{"from":null,"to":[{"name":"herdier","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

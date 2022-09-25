@@ -1,0 +1,1 @@
+{"liepard":{"from":"purrloin","to":[]},"purrloin":{"from":null,"to":[{"name":"liepard","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

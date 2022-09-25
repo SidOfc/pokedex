@@ -1,0 +1,1 @@
+{"decidueye":{"from":"dartrix","to":[]},"dartrix":{"from":"rowlet","to":[{"name":"decidueye","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]},"rowlet":{"from":null,"to":[{"name":"dartrix","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

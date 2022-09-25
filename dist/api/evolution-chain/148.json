@@ -1,0 +1,1 @@
+{"delcatty":{"from":"skitty","to":[]},"skitty":{"from":null,"to":[{"name":"delcatty","methods":[{"trigger":"use-item","conditions":{"item":"moon-stone"}}]}]}}

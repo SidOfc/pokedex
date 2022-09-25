@@ -1,0 +1,1 @@
+{"dodrio":{"from":"doduo","to":[]},"doduo":{"from":null,"to":[{"name":"dodrio","methods":[{"trigger":"level-up","conditions":{"minLevel":31}}]}]}}

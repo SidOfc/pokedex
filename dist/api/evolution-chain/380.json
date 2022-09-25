@@ -1,0 +1,1 @@
+{"crabominable":{"from":"crabrawler","to":[]},"crabrawler":{"from":null,"to":[{"name":"crabominable","methods":[{"trigger":"level-up","conditions":{"location":"mount-lanakila"}}]}]}}

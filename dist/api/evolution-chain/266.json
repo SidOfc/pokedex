@@ -1,0 +1,1 @@
+{"unfezant":{"from":"tranquill","to":[]},"tranquill":{"from":"pidove","to":[{"name":"unfezant","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]},"pidove":{"from":null,"to":[{"name":"tranquill","methods":[{"trigger":"level-up","conditions":{"minLevel":21}}]}]}}

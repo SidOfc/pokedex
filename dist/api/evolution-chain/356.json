@@ -1,0 +1,1 @@
+{"heliolisk":{"from":"helioptile","to":[]},"helioptile":{"from":null,"to":[{"name":"heliolisk","methods":[{"trigger":"use-item","conditions":{"item":"sun-stone"}}]}]}}

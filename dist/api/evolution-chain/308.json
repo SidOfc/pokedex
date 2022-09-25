@@ -1,0 +1,1 @@
+{"chandelure":{"from":"lampent","to":[]},"lampent":{"from":"litwick","to":[{"name":"chandelure","methods":[{"trigger":"use-item","conditions":{"item":"dusk-stone"}}]}]},"litwick":{"from":null,"to":[{"name":"lampent","methods":[{"trigger":"level-up","conditions":{"minLevel":41}}]}]}}

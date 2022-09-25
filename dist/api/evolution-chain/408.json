@@ -1,0 +1,1 @@
+{"kommo-o":{"from":"hakamo-o","to":[]},"hakamo-o":{"from":"jangmo-o","to":[{"name":"kommo-o","methods":[{"trigger":"level-up","conditions":{"minLevel":45}}]}]},"jangmo-o":{"from":null,"to":[{"name":"hakamo-o","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

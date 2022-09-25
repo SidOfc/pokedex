@@ -1,0 +1,1 @@
+{"exeggutor":{"from":"exeggcute","to":[]},"exeggcute":{"from":null,"to":[{"name":"exeggutor","methods":[{"trigger":"use-item","conditions":{"item":"leaf-stone"}}]}]}}

@@ -1,0 +1,1 @@
+{"azumarill":{"from":"marill","to":[]},"marill":{"from":"azurill","to":[{"name":"azumarill","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]},"azurill":{"from":null,"to":[{"name":"marill","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

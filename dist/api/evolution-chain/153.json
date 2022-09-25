@@ -1,0 +1,1 @@
+{"manectric":{"from":"electrike","to":[]},"electrike":{"from":null,"to":[{"name":"manectric","methods":[{"trigger":"level-up","conditions":{"minLevel":26}}]}]}}

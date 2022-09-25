@@ -1,0 +1,1 @@
+{"gothitelle":{"from":"gothorita","to":[]},"gothorita":{"from":"gothita","to":[{"name":"gothitelle","methods":[{"trigger":"level-up","conditions":{"minLevel":41}}]}]},"gothita":{"from":null,"to":[{"name":"gothorita","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

@@ -1,0 +1,1 @@
+{"aromatisse":{"from":"spritzee","to":[]},"spritzee":{"from":null,"to":[{"name":"aromatisse","methods":[{"trigger":"trade","conditions":{"heldItem":"sachet"}}]}]}}

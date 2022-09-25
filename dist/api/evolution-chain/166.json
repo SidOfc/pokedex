@@ -1,0 +1,1 @@
+{"flygon":{"from":"vibrava","to":[]},"vibrava":{"from":"trapinch","to":[{"name":"flygon","methods":[{"trigger":"level-up","conditions":{"minLevel":45}}]}]},"trapinch":{"from":null,"to":[{"name":"vibrava","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

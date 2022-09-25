@@ -1,0 +1,1 @@
+{"slurpuff":{"from":"swirlix","to":[]},"swirlix":{"from":null,"to":[{"name":"slurpuff","methods":[{"trigger":"trade","conditions":{"heldItem":"whipped-dream"}}]}]}}

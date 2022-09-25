@@ -1,0 +1,1 @@
+{"fearow":{"from":"spearow","to":[]},"spearow":{"from":null,"to":[{"name":"fearow","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

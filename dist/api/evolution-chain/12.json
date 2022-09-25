@@ -1,0 +1,1 @@
+{"nidoqueen":{"from":"nidorina","to":[]},"nidorina":{"from":"nidoran-f","to":[{"name":"nidoqueen","methods":[{"trigger":"use-item","conditions":{"item":"moon-stone"}}]}]},"nidoran-f":{"from":null,"to":[{"name":"nidorina","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

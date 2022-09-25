@@ -1,0 +1,1 @@
+{"lycanroc":{"from":"rockruff","to":[]},"rockruff":{"from":null,"to":[{"name":"lycanroc","methods":[{"trigger":"level-up","conditions":{"minLevel":25,"timeOfDay":"day"}},{"trigger":"level-up","conditions":{"minLevel":25,"timeOfDay":"night"}},{"trigger":"level-up","conditions":{"minLevel":25,"timeOfDay":"dusk"}}]}]}}

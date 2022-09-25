@@ -1,0 +1,1 @@
+{"vikavolt":{"from":"charjabug","to":[]},"charjabug":{"from":"grubbin","to":[{"name":"vikavolt","methods":[{"trigger":"use-item","conditions":{"item":"thunder-stone"}}]}]},"grubbin":{"from":null,"to":[{"name":"charjabug","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

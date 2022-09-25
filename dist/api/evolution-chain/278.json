@@ -1,0 +1,1 @@
+{"whimsicott":{"from":"cottonee","to":[]},"cottonee":{"from":null,"to":[{"name":"whimsicott","methods":[{"trigger":"use-item","conditions":{"item":"sun-stone"}}]}]}}

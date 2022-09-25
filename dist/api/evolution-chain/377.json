@@ -1,0 +1,1 @@
+{"toucannon":{"from":"trumbeak","to":[]},"trumbeak":{"from":"pikipek","to":[{"name":"toucannon","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]},"pikipek":{"from":null,"to":[{"name":"trumbeak","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

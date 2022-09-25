@@ -1,0 +1,1 @@
+{"gyarados":{"from":"magikarp","to":[]},"magikarp":{"from":null,"to":[{"name":"gyarados","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

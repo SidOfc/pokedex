@@ -1,0 +1,1 @@
+{"blaziken":{"from":"combusken","to":[]},"combusken":{"from":"torchic","to":[{"name":"blaziken","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"torchic":{"from":null,"to":[{"name":"combusken","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

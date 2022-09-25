@@ -1,0 +1,1 @@
+{"gogoat":{"from":"skiddo","to":[]},"skiddo":{"from":null,"to":[{"name":"gogoat","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

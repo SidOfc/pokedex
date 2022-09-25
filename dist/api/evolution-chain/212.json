@@ -1,0 +1,1 @@
+{"bastiodon":{"from":"shieldon","to":[]},"shieldon":{"from":null,"to":[{"name":"bastiodon","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

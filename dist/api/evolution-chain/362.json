@@ -1,0 +1,1 @@
+{"goodra":{"from":"sliggoo","to":[]},"sliggoo":{"from":"goomy","to":[{"name":"goodra","methods":[{"trigger":"level-up","conditions":{"minLevel":50,"needsOverworldRain":true}}]}]},"goomy":{"from":null,"to":[{"name":"sliggoo","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

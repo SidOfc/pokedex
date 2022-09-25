@@ -1,0 +1,1 @@
+{"medicham":{"from":"meditite","to":[]},"meditite":{"from":null,"to":[{"name":"medicham","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

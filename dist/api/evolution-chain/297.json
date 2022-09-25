@@ -1,0 +1,1 @@
+{"sawsbuck":{"from":"deerling","to":[]},"deerling":{"from":null,"to":[{"name":"sawsbuck","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]}}

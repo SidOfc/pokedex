@@ -1,0 +1,1 @@
+{"toxtricity":{"from":"toxel","to":[]},"toxel":{"from":null,"to":[{"name":"toxtricity","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

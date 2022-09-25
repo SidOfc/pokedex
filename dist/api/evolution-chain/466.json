@@ -1,0 +1,1 @@
+{"dragapult":{"from":"drakloak","to":[]},"drakloak":{"from":"dreepy","to":[{"name":"dragapult","methods":[{"trigger":"level-up","conditions":{"minLevel":60}}]}]},"dreepy":{"from":null,"to":[{"name":"drakloak","methods":[{"trigger":"level-up","conditions":{"minLevel":50}}]}]}}

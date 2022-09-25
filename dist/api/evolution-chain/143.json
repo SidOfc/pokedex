@@ -1,0 +1,1 @@
+{"slaking":{"from":"vigoroth","to":[]},"vigoroth":{"from":"slakoth","to":[{"name":"slaking","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"slakoth":{"from":null,"to":[{"name":"vigoroth","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

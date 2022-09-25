@@ -1,0 +1,1 @@
+{"grumpig":{"from":"spoink","to":[]},"spoink":{"from":null,"to":[{"name":"grumpig","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

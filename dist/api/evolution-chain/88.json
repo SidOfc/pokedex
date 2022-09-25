@@ -1,0 +1,1 @@
+{"xatu":{"from":"natu","to":[]},"natu":{"from":null,"to":[{"name":"xatu","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

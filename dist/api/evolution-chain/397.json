@@ -1,0 +1,1 @@
+{"palossand":{"from":"sandygast","to":[]},"sandygast":{"from":null,"to":[{"name":"palossand","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]}}

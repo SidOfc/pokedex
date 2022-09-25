@@ -1,0 +1,1 @@
+{"parasect":{"from":"paras","to":[]},"paras":{"from":null,"to":[{"name":"parasect","methods":[{"trigger":"level-up","conditions":{"minLevel":24}}]}]}}

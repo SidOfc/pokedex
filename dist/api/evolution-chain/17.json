@@ -1,0 +1,1 @@
+{"crobat":{"from":"golbat","to":[]},"golbat":{"from":"zubat","to":[{"name":"crobat","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]},"zubat":{"from":null,"to":[{"name":"golbat","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

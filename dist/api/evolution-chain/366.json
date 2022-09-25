@@ -1,0 +1,1 @@
+{"avalugg":{"from":"bergmite","to":[]},"bergmite":{"from":null,"to":[{"name":"avalugg","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

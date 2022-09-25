@@ -1,0 +1,1 @@
+{"swampert":{"from":"marshtomp","to":[]},"marshtomp":{"from":"mudkip","to":[{"name":"swampert","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"mudkip":{"from":null,"to":[{"name":"marshtomp","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

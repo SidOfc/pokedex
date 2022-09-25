@@ -1,0 +1,1 @@
+{"lucario":{"from":"riolu","to":[]},"riolu":{"from":null,"to":[{"name":"lucario","methods":[{"trigger":"level-up","conditions":{"minHappiness":160,"timeOfDay":"day"}}]}]}}

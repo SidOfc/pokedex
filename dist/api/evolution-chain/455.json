@@ -1,0 +1,1 @@
+{"frosmoth":{"from":"snom","to":[]},"snom":{"from":null,"to":[{"name":"frosmoth","methods":[{"trigger":"level-up","conditions":{"minHappiness":160,"timeOfDay":"night"}}]}]}}

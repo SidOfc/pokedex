@@ -1,0 +1,1 @@
+{"zebstrika":{"from":"blitzle","to":[]},"blitzle":{"from":null,"to":[{"name":"zebstrika","methods":[{"trigger":"level-up","conditions":{"minLevel":27}}]}]}}

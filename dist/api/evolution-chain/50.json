@@ -1,0 +1,1 @@
+{"rhyperior":{"from":"rhydon","to":[]},"rhydon":{"from":"rhyhorn","to":[{"name":"rhyperior","methods":[{"trigger":"trade","conditions":{"heldItem":"protector"}}]}]},"rhyhorn":{"from":null,"to":[{"name":"rhydon","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]}}

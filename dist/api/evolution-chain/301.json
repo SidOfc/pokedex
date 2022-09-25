@@ -1,0 +1,1 @@
+{"jellicent":{"from":"frillish","to":[]},"frillish":{"from":null,"to":[{"name":"jellicent","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

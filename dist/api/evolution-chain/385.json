@@ -1,0 +1,1 @@
+{"toxapex":{"from":"mareanie","to":[]},"mareanie":{"from":null,"to":[{"name":"toxapex","methods":[{"trigger":"level-up","conditions":{"minLevel":38}}]}]}}

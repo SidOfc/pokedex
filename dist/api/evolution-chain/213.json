@@ -1,0 +1,1 @@
+{"wormadam":{"from":"burmy","to":[]},"mothim":{"from":"burmy","to":[]},"burmy":{"from":null,"to":[{"name":"wormadam","methods":[{"trigger":"level-up","conditions":{"gender":1,"minLevel":20}}]},{"name":"mothim","methods":[{"trigger":"level-up","conditions":{"gender":2,"minLevel":20}}]}]}}

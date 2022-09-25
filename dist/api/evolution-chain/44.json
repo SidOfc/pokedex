@@ -1,0 +1,1 @@
+{"electrode":{"from":"voltorb","to":[]},"voltorb":{"from":null,"to":[{"name":"electrode","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

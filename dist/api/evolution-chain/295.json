@@ -1,0 +1,1 @@
+{"swanna":{"from":"ducklett","to":[]},"ducklett":{"from":null,"to":[{"name":"swanna","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

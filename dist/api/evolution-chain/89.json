@@ -1,0 +1,1 @@
+{"ampharos":{"from":"flaaffy","to":[]},"flaaffy":{"from":"mareep","to":[{"name":"ampharos","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]},"mareep":{"from":null,"to":[{"name":"flaaffy","methods":[{"trigger":"level-up","conditions":{"minLevel":15}}]}]}}

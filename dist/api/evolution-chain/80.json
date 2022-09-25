@@ -1,0 +1,1 @@
+{"typhlosion":{"from":"quilava","to":[]},"quilava":{"from":"cyndaquil","to":[{"name":"typhlosion","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"cyndaquil":{"from":null,"to":[{"name":"quilava","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

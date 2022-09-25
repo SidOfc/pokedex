@@ -1,0 +1,1 @@
+{"wobbuffet":{"from":"wynaut","to":[]},"wynaut":{"from":null,"to":[{"name":"wobbuffet","methods":[{"trigger":"level-up","conditions":{"minLevel":15}}]}]}}

@@ -1,0 +1,1 @@
+{"forretress":{"from":"pineco","to":[]},"pineco":{"from":null,"to":[{"name":"forretress","methods":[{"trigger":"level-up","conditions":{"minLevel":31}}]}]}}

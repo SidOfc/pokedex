@@ -1,0 +1,1 @@
+{"bisharp":{"from":"pawniard","to":[]},"pawniard":{"from":null,"to":[{"name":"bisharp","methods":[{"trigger":"level-up","conditions":{"minLevel":52}}]}]}}

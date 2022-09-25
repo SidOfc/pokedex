@@ -1,0 +1,1 @@
+{"aggron":{"from":"lairon","to":[]},"lairon":{"from":"aron","to":[{"name":"aggron","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]},"aron":{"from":null,"to":[{"name":"lairon","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

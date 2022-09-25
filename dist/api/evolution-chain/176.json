@@ -1,0 +1,1 @@
+{"cradily":{"from":"lileep","to":[]},"lileep":{"from":null,"to":[{"name":"cradily","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

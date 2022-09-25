@@ -1,0 +1,1 @@
+{"malamar":{"from":"inkay","to":[]},"inkay":{"from":null,"to":[{"name":"malamar","methods":[{"trigger":"level-up","conditions":{"minLevel":30,"turnUpsideDown":true}}]}]}}

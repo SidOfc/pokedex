@@ -1,0 +1,1 @@
+{"arbok":{"from":"ekans","to":[]},"ekans":{"from":null,"to":[{"name":"arbok","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

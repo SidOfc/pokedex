@@ -1,0 +1,1 @@
+{"bewear":{"from":"stufful","to":[]},"stufful":{"from":null,"to":[{"name":"bewear","methods":[{"trigger":"level-up","conditions":{"minLevel":27}}]}]}}

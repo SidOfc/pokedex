@@ -1,0 +1,1 @@
+{"infernape":{"from":"monferno","to":[]},"monferno":{"from":"chimchar","to":[{"name":"infernape","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"chimchar":{"from":null,"to":[{"name":"monferno","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

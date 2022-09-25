@@ -1,0 +1,1 @@
+{"eldegoss":{"from":"gossifleur","to":[]},"gossifleur":{"from":null,"to":[{"name":"eldegoss","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

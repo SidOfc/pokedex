@@ -1,0 +1,1 @@
+{"butterfree":{"from":"metapod","to":[]},"metapod":{"from":"caterpie","to":[{"name":"butterfree","methods":[{"trigger":"level-up","conditions":{"minLevel":10}}]}]},"caterpie":{"from":null,"to":[{"name":"metapod","methods":[{"trigger":"level-up","conditions":{"minLevel":7}}]}]}}

@@ -1,0 +1,1 @@
+{"delphox":{"from":"braixen","to":[]},"braixen":{"from":"fennekin","to":[{"name":"delphox","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"fennekin":{"from":null,"to":[{"name":"braixen","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

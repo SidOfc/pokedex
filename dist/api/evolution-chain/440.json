@@ -1,0 +1,1 @@
+{"boltund":{"from":"yamper","to":[]},"yamper":{"from":null,"to":[{"name":"boltund","methods":[{"trigger":"level-up","conditions":{"minLevel":25}}]}]}}

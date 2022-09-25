@@ -1,0 +1,1 @@
+{"seaking":{"from":"goldeen","to":[]},"goldeen":{"from":null,"to":[{"name":"seaking","methods":[{"trigger":"level-up","conditions":{"minLevel":33}}]}]}}

@@ -1,0 +1,1 @@
+{"rampardos":{"from":"cranidos","to":[]},"cranidos":{"from":null,"to":[{"name":"rampardos","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

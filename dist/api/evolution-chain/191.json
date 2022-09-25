@@ -1,0 +1,1 @@
+{"salamence":{"from":"shelgon","to":[]},"shelgon":{"from":"bagon","to":[{"name":"salamence","methods":[{"trigger":"level-up","conditions":{"minLevel":50}}]}]},"bagon":{"from":null,"to":[{"name":"shelgon","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

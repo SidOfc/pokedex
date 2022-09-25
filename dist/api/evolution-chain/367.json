@@ -1,0 +1,1 @@
+{"noivern":{"from":"noibat","to":[]},"noibat":{"from":null,"to":[{"name":"noivern","methods":[{"trigger":"level-up","conditions":{"minLevel":48}}]}]}}

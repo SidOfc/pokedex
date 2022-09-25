@@ -1,0 +1,1 @@
+{"orbeetle":{"from":"dottler","to":[]},"dottler":{"from":"blipbug","to":[{"name":"orbeetle","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]},"blipbug":{"from":null,"to":[{"name":"dottler","methods":[{"trigger":"level-up","conditions":{"minLevel":10}}]}]}}

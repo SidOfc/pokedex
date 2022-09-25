@@ -1,0 +1,1 @@
+{"mantine":{"from":"mantyke","to":[]},"mantyke":{"from":null,"to":[{"name":"mantine","methods":[{"trigger":"level-up","conditions":{"partySpecies":"remoraid"}}]}]}}

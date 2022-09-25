@@ -1,0 +1,1 @@
+{"garchomp":{"from":"gabite","to":[]},"gabite":{"from":"gible","to":[{"name":"garchomp","methods":[{"trigger":"level-up","conditions":{"minLevel":48}}]}]},"gible":{"from":null,"to":[{"name":"gabite","methods":[{"trigger":"level-up","conditions":{"minLevel":24}}]}]}}

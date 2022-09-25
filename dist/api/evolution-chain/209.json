@@ -1,0 +1,1 @@
+{"luxray":{"from":"luxio","to":[]},"luxio":{"from":"shinx","to":[{"name":"luxray","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]},"shinx":{"from":null,"to":[{"name":"luxio","methods":[{"trigger":"level-up","conditions":{"minLevel":15}}]}]}}

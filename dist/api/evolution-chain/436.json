@@ -1,0 +1,1 @@
+{"thievul":{"from":"nickit","to":[]},"nickit":{"from":null,"to":[{"name":"thievul","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

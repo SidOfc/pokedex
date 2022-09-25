@@ -1,0 +1,1 @@
+{"breloom":{"from":"shroomish","to":[]},"shroomish":{"from":null,"to":[{"name":"breloom","methods":[{"trigger":"level-up","conditions":{"minLevel":23}}]}]}}

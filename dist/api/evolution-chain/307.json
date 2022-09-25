@@ -1,0 +1,1 @@
+{"beheeyem":{"from":"elgyem","to":[]},"elgyem":{"from":null,"to":[{"name":"beheeyem","methods":[{"trigger":"level-up","conditions":{"minLevel":42}}]}]}}

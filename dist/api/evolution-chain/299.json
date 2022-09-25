@@ -1,0 +1,1 @@
+{"escavalier":{"from":"karrablast","to":[]},"karrablast":{"from":null,"to":[{"name":"escavalier","methods":[{"trigger":"trade","conditions":{"tradeSpecies":"shelmet"}}]}]}}

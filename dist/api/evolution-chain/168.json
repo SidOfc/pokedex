@@ -1,0 +1,1 @@
+{"altaria":{"from":"swablu","to":[]},"swablu":{"from":null,"to":[{"name":"altaria","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

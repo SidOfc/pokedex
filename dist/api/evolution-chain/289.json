@@ -1,0 +1,1 @@
+{"archeops":{"from":"archen","to":[]},"archen":{"from":null,"to":[{"name":"archeops","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

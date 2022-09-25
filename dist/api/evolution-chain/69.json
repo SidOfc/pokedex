@@ -1,0 +1,1 @@
+{"omastar":{"from":"omanyte","to":[]},"omanyte":{"from":null,"to":[{"name":"omastar","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

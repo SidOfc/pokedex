@@ -1,0 +1,1 @@
+{"ledian":{"from":"ledyba","to":[]},"ledyba":{"from":null,"to":[{"name":"ledian","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

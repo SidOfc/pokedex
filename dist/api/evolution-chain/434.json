@@ -1,0 +1,1 @@
+{"corviknight":{"from":"corvisquire","to":[]},"corvisquire":{"from":"rookidee","to":[{"name":"corviknight","methods":[{"trigger":"level-up","conditions":{"minLevel":38}}]}]},"rookidee":{"from":null,"to":[{"name":"corvisquire","methods":[{"trigger":"level-up","conditions":{"minLevel":18}}]}]}}

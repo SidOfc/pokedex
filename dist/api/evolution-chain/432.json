@@ -1,0 +1,1 @@
+{"inteleon":{"from":"drizzile","to":[]},"drizzile":{"from":"sobble","to":[{"name":"inteleon","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]},"sobble":{"from":null,"to":[{"name":"drizzile","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

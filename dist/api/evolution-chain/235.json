@@ -1,0 +1,1 @@
+{"toxicroak":{"from":"croagunk","to":[]},"croagunk":{"from":null,"to":[{"name":"toxicroak","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

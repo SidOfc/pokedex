@@ -1,0 +1,1 @@
+{"volcarona":{"from":"larvesta","to":[]},"larvesta":{"from":null,"to":[{"name":"volcarona","methods":[{"trigger":"level-up","conditions":{"minLevel":59}}]}]}}

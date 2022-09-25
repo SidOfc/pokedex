@@ -1,0 +1,1 @@
+{"togekiss":{"from":"togetic","to":[]},"togetic":{"from":"togepi","to":[{"name":"togekiss","methods":[{"trigger":"use-item","conditions":{"item":"shiny-stone"}}]}]},"togepi":{"from":null,"to":[{"name":"togetic","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

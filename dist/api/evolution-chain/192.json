@@ -1,0 +1,1 @@
+{"metagross":{"from":"metang","to":[]},"metang":{"from":"beldum","to":[{"name":"metagross","methods":[{"trigger":"level-up","conditions":{"minLevel":45}}]}]},"beldum":{"from":null,"to":[{"name":"metang","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

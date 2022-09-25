@@ -1,0 +1,1 @@
+{"haxorus":{"from":"fraxure","to":[]},"fraxure":{"from":"axew","to":[{"name":"haxorus","methods":[{"trigger":"level-up","conditions":{"minLevel":48}}]}]},"axew":{"from":null,"to":[{"name":"fraxure","methods":[{"trigger":"level-up","conditions":{"minLevel":38}}]}]}}

@@ -1,0 +1,1 @@
+{"vivillon":{"from":"spewpa","to":[]},"spewpa":{"from":"scatterbug","to":[{"name":"vivillon","methods":[{"trigger":"level-up","conditions":{"minLevel":12}}]}]},"scatterbug":{"from":null,"to":[{"name":"spewpa","methods":[{"trigger":"level-up","conditions":{"minLevel":9}}]}]}}

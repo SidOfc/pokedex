@@ -1,0 +1,1 @@
+{"lumineon":{"from":"finneon","to":[]},"finneon":{"from":null,"to":[{"name":"lumineon","methods":[{"trigger":"level-up","conditions":{"minLevel":31}}]}]}}

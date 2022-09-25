@@ -1,0 +1,1 @@
+{"quagsire":{"from":"wooper","to":[]},"wooper":{"from":null,"to":[{"name":"quagsire","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

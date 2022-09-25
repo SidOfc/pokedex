@@ -1,0 +1,1 @@
+{"weavile":{"from":"sneasel","to":[]},"sneasel":{"from":null,"to":[{"name":"weavile","methods":[{"trigger":"level-up","conditions":{"heldItem":"razor-claw","timeOfDay":"night"}}]}]}}

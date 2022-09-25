@@ -1,0 +1,1 @@
+{"floatzel":{"from":"buizel","to":[]},"buizel":{"from":null,"to":[{"name":"floatzel","methods":[{"trigger":"level-up","conditions":{"minLevel":26}}]}]}}

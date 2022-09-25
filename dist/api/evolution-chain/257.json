@@ -1,0 +1,1 @@
+{"emboar":{"from":"pignite","to":[]},"pignite":{"from":"tepig","to":[{"name":"emboar","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"tepig":{"from":null,"to":[{"name":"pignite","methods":[{"trigger":"level-up","conditions":{"minLevel":17}}]}]}}

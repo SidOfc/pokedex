@@ -1,0 +1,1 @@
+{"gliscor":{"from":"gligar","to":[]},"gligar":{"from":null,"to":[{"name":"gliscor","methods":[{"trigger":"level-up","conditions":{"heldItem":"razor-fang","timeOfDay":"night"}}]}]}}

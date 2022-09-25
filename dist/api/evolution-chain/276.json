@@ -1,0 +1,1 @@
+{"leavanny":{"from":"swadloon","to":[]},"swadloon":{"from":"sewaddle","to":[{"name":"leavanny","methods":[{"trigger":"level-up","conditions":{"minHappiness":220}}]}]},"sewaddle":{"from":null,"to":[{"name":"swadloon","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

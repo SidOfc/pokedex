@@ -1,0 +1,1 @@
+{"steelix":{"from":"onix","to":[]},"onix":{"from":null,"to":[{"name":"steelix","methods":[{"trigger":"trade","conditions":{"heldItem":"metal-coat"}}]}]}}

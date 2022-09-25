@@ -1,0 +1,1 @@
+{"cinderace":{"from":"raboot","to":[]},"raboot":{"from":"scorbunny","to":[{"name":"cinderace","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]},"scorbunny":{"from":null,"to":[{"name":"raboot","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

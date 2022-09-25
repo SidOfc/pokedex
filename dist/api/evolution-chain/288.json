@@ -1,0 +1,1 @@
+{"carracosta":{"from":"tirtouga","to":[]},"tirtouga":{"from":null,"to":[{"name":"carracosta","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

@@ -1,0 +1,1 @@
+{"accelgor":{"from":"shelmet","to":[]},"shelmet":{"from":null,"to":[{"name":"accelgor","methods":[{"trigger":"trade","conditions":{"tradeSpecies":"karrablast"}}]}]}}

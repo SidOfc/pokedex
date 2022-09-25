@@ -1,0 +1,1 @@
+{"garbodor":{"from":"trubbish","to":[]},"trubbish":{"from":null,"to":[{"name":"garbodor","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]}}

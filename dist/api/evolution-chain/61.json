@@ -1,0 +1,1 @@
+{"magmortar":{"from":"magmar","to":[]},"magmar":{"from":"magby","to":[{"name":"magmortar","methods":[{"trigger":"trade","conditions":{"heldItem":"magmarizer"}}]}]},"magby":{"from":null,"to":[{"name":"magmar","methods":[{"trigger":"level-up","conditions":{"minLevel":30}}]}]}}

@@ -1,0 +1,1 @@
+{"masquerain":{"from":"surskit","to":[]},"surskit":{"from":null,"to":[{"name":"masquerain","methods":[{"trigger":"level-up","conditions":{"minLevel":22}}]}]}}

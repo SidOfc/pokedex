@@ -1,0 +1,1 @@
+{"dusknoir":{"from":"dusclops","to":[]},"dusclops":{"from":"duskull","to":[{"name":"dusknoir","methods":[{"trigger":"trade","conditions":{"heldItem":"reaper-cloth"}}]}]},"duskull":{"from":null,"to":[{"name":"dusclops","methods":[{"trigger":"level-up","conditions":{"minLevel":37}}]}]}}

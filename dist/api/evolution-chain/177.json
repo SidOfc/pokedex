@@ -1,0 +1,1 @@
+{"armaldo":{"from":"anorith","to":[]},"anorith":{"from":null,"to":[{"name":"armaldo","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

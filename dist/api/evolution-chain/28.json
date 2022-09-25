@@ -1,0 +1,1 @@
+{"machamp":{"from":"machoke","to":[]},"machoke":{"from":"machop","to":[{"name":"machamp","methods":[{"trigger":"trade","conditions":{}}]}]},"machop":{"from":null,"to":[{"name":"machoke","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]}}

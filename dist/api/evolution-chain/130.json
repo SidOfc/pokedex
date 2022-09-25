@@ -1,0 +1,1 @@
+{"sceptile":{"from":"grovyle","to":[]},"grovyle":{"from":"treecko","to":[{"name":"sceptile","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]},"treecko":{"from":null,"to":[{"name":"grovyle","methods":[{"trigger":"level-up","conditions":{"minLevel":16}}]}]}}

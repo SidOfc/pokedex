@@ -1,0 +1,1 @@
+{"milotic":{"from":"feebas","to":[]},"feebas":{"from":null,"to":[{"name":"milotic","methods":[{"trigger":"level-up","conditions":{"minBeauty":171}},{"trigger":"trade","conditions":{"heldItem":"prism-scale"}},{"trigger":"level-up","conditions":{"minBeauty":170}}]}]}}

@@ -1,0 +1,1 @@
+{"raichu":{"from":"pikachu","to":[]},"pikachu":{"from":"pichu","to":[{"name":"raichu","methods":[{"trigger":"use-item","conditions":{"item":"thunder-stone"}}]}]},"pichu":{"from":null,"to":[{"name":"pikachu","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}

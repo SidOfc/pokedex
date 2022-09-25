@@ -1,0 +1,1 @@
+{"staraptor":{"from":"staravia","to":[]},"staravia":{"from":"starly","to":[{"name":"staraptor","methods":[{"trigger":"level-up","conditions":{"minLevel":34}}]}]},"starly":{"from":null,"to":[{"name":"staravia","methods":[{"trigger":"level-up","conditions":{"minLevel":14}}]}]}}

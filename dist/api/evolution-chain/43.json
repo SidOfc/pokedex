@@ -1,0 +1,1 @@
+{"kingler":{"from":"krabby","to":[]},"krabby":{"from":null,"to":[{"name":"kingler","methods":[{"trigger":"level-up","conditions":{"minLevel":28}}]}]}}

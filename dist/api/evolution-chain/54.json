@@ -1,0 +1,1 @@
+{"kingdra":{"from":"seadra","to":[]},"seadra":{"from":"horsea","to":[{"name":"kingdra","methods":[{"trigger":"trade","conditions":{"heldItem":"dragon-scale"}}]}]},"horsea":{"from":null,"to":[{"name":"seadra","methods":[{"trigger":"level-up","conditions":{"minLevel":32}}]}]}}

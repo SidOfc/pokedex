@@ -1,0 +1,1 @@
+{"kricketune":{"from":"kricketot","to":[]},"kricketot":{"from":null,"to":[{"name":"kricketune","methods":[{"trigger":"level-up","conditions":{"minLevel":10}}]}]}}

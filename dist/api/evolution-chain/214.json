@@ -1,0 +1,1 @@
+{"vespiquen":{"from":"combee","to":[]},"combee":{"from":null,"to":[{"name":"vespiquen","methods":[{"trigger":"level-up","conditions":{"gender":1,"minLevel":21}}]}]}}

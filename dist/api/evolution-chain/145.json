@@ -1,0 +1,1 @@
+{"exploud":{"from":"loudred","to":[]},"loudred":{"from":"whismur","to":[{"name":"exploud","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]},"whismur":{"from":null,"to":[{"name":"loudred","methods":[{"trigger":"level-up","conditions":{"minLevel":20}}]}]}}

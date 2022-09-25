@@ -1,0 +1,1 @@
+{"vanilluxe":{"from":"vanillish","to":[]},"vanillish":{"from":"vanillite","to":[{"name":"vanilluxe","methods":[{"trigger":"level-up","conditions":{"minLevel":47}}]}]},"vanillite":{"from":null,"to":[{"name":"vanillish","methods":[{"trigger":"level-up","conditions":{"minLevel":35}}]}]}}

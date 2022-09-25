@@ -1,0 +1,1 @@
+{"probopass":{"from":"nosepass","to":[]},"nosepass":{"from":null,"to":[{"name":"probopass","methods":[{"trigger":"level-up","conditions":{"location":"mt-coronet"}},{"trigger":"level-up","conditions":{"location":"chargestone-cave"}},{"trigger":"level-up","conditions":{"location":"kalos-route-13"}}]}]}}

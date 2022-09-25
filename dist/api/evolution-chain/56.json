@@ -1,0 +1,1 @@
+{"starmie":{"from":"staryu","to":[]},"staryu":{"from":null,"to":[{"name":"starmie","methods":[{"trigger":"use-item","conditions":{"item":"water-stone"}}]}]}}

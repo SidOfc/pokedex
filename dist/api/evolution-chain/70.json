@@ -1,0 +1,1 @@
+{"kabutops":{"from":"kabuto","to":[]},"kabuto":{"from":null,"to":[{"name":"kabutops","methods":[{"trigger":"level-up","conditions":{"minLevel":40}}]}]}}

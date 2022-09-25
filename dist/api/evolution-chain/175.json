@@ -1,0 +1,1 @@
+{"claydol":{"from":"baltoy","to":[]},"baltoy":{"from":null,"to":[{"name":"claydol","methods":[{"trigger":"level-up","conditions":{"minLevel":36}}]}]}}

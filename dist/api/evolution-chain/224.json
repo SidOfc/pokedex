@@ -1,0 +1,1 @@
+{"bronzong":{"from":"bronzor","to":[]},"bronzor":{"from":null,"to":[{"name":"bronzong","methods":[{"trigger":"level-up","conditions":{"minLevel":33}}]}]}}

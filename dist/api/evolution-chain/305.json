@@ -1,0 +1,1 @@
+{"klinklang":{"from":"klang","to":[]},"klang":{"from":"klink","to":[{"name":"klinklang","methods":[{"trigger":"level-up","conditions":{"minLevel":49}}]}]},"klink":{"from":null,"to":[{"name":"klang","methods":[{"trigger":"level-up","conditions":{"minLevel":38}}]}]}}

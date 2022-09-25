@@ -1,0 +1,1 @@
+{"swoobat":{"from":"woobat","to":[]},"woobat":{"from":null,"to":[{"name":"swoobat","methods":[{"trigger":"level-up","conditions":{"minHappiness":160}}]}]}}
