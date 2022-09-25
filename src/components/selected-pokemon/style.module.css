@@ -166,6 +166,7 @@
     text-align: center;
     font-weight: 700;
     margin-bottom: var(--padding);
+    text-transform: capitalize;
 }
 
 .linkPokemonTypes {

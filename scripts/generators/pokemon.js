@@ -29,8 +29,10 @@ export async function build(settings = {}) {
         delay: settings.batchDelay ?? (allowFast ? 0 : 5000),
         async callback({url}) {
             const response = await request(url);
-            const json = await response.json();
-            const item = Pokemon.process(json);
+            const pkmn = await response.json();
+            const speciesResponse = await request(pkmn.species.url);
+            const species = await speciesResponse.json();
+            const item = Pokemon.process({pkmn, species});
 
             await Promise.all(
                 Object.entries(item.images)
@@ -38,7 +40,7 @@ export async function build(settings = {}) {
                     .map(([type, url]) =>
                         retriable(async () => {
                             const ext = path.extname(url);
-                            const fileName = `${json.id}.${type}${ext}`;
+                            const fileName = `${pkmn.id}.${type}${ext}`;
                             const imgResponse = await request(url);
                             const arrayBuf = await imgResponse.arrayBuffer();
                             const originalBuf = Buffer.from(arrayBuf);
@@ -62,7 +64,7 @@ export async function build(settings = {}) {
             );
 
             await retriable(() =>
-                save(path.join(resource, `${json.id}.json`), item)
+                save(path.join(resource, `${pkmn.id}.json`), item)
             );
 
             return item;
@@ -72,7 +74,7 @@ export async function build(settings = {}) {
     const indexKeys = ['id', 'name', 'order', 'types', 'default', 'images'];
     const mappedItems = items
         .map((item) => only(item, indexKeys))
-        .filter((item) => item.default && item.order >= 0);
+        .filter((item) => item.isDefault && item.order >= 0);
 
     await save(`${resource}.json`, mappedItems);
 
