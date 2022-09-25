@@ -1,9 +1,20 @@
 import path from 'node:path';
-import {request, hasLocal, pokeapi, batch, save, retriable} from '../util.js';
+import {
+    request,
+    hasLocal,
+    retriable,
+    destroy,
+    pokeapi,
+    batch,
+    save,
+} from '../util.js';
 import * as EvolutionChain from '../models/evolution-chain.js';
 
 export async function build(settings = {}) {
     const resource = 'evolution-chain';
+
+    await Promise.all([destroy(resource), destroy(`${resource}.json`)]);
+
     const endpoint = pokeapi(resource, {limit: 1000});
     const response = await request(endpoint, {cache: false});
     const {results} = await response.json();

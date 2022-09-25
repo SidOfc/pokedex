@@ -3,17 +3,21 @@ import {
     request,
     hasLocal,
     retriable,
+    destroy,
     pokeapi,
     batch,
     save,
+    bust,
     only,
     gfx,
-    bust,
 } from '../util.js';
 import * as Pokemon from '../models/pokemon.js';
 
 export async function build(settings = {}) {
     const resource = 'pokemon';
+
+    await Promise.all([destroy(resource), destroy(`${resource}.json`)]);
+
     const endpoint = pokeapi(resource, {limit: 2000});
     const response = await request(endpoint, {cache: false});
     const {results} = await response.json();
@@ -66,7 +70,9 @@ export async function build(settings = {}) {
     });
 
     const indexKeys = ['id', 'name', 'order', 'types', 'default', 'images'];
-    const mappedItems = items.map((item) => only(item, indexKeys));
+    const mappedItems = items
+        .map((item) => only(item, indexKeys))
+        .filter((item) => item.default && item.order >= 0);
 
     await save(`${resource}.json`, mappedItems);
 

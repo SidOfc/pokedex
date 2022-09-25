@@ -1,10 +1,10 @@
-import {unlink, mkdir, readFile, writeFile} from 'node:fs/promises';
+import {rm, mkdir, readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import glob from 'glob';
 import gm from 'gm';
 
-const RESOURCE_ROOT = path.join('tmp', 'cache');
-const DIST_ROOT = path.join('dist', 'api');
+const RESOURCE_ROOT = path.resolve(path.join('tmp', 'cache'));
+const DIST_ROOT = path.resolve(path.join('dist', 'api'));
 
 export async function gfx(buffer, manipulator) {
     return new Promise((resolve, reject) => {
@@ -81,11 +81,15 @@ export function hasLocal(...urls) {
         .every((urlPath) => paths.some((file) => file.includes(urlPath)));
 }
 
+export async function destroy(filePath) {
+    return rm(dist(filePath), {force: true, recursive: true});
+}
+
 export async function bust(url) {
     const fileName = urlToFilename(url);
     const cached = (glob.sync(cache(`${fileName}*`))[0] ?? '').split('/').pop();
 
-    return unlink(cache(cached));
+    return rm(cache(cached), {force: true, recursive: true});
 }
 
 export function pokeapi(path, params = {}) {
