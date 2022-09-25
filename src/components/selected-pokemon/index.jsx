@@ -1,7 +1,13 @@
 import {For, Show, createEffect} from 'solid-js';
 import styles from './style.module.css';
 import {PokemonType} from '@components/pokemon-type';
-import {select, getSelected} from '@actions/pokemon';
+import {
+    select,
+    getSelected,
+    getChain,
+    getUnevolved,
+    findPokemon,
+} from '@actions/pokemon';
 import {state} from '@src/state';
 import {
     imageSrc,
@@ -12,7 +18,7 @@ import {
 } from '@src/util';
 
 export function SelectedPokemon() {
-    const index = 156;
+    const index = 132;
     createEffect(() => {
         if (state.pokemon.results[index]) {
             select(state.pokemon.results[index].id);
@@ -72,40 +78,50 @@ function SelectedPokemonScreen(props) {
                 </div>
             </div>
             <div class={styles.chains}>
-                <EvolutionLink pokemon={props.pokemon} />
+                <EvolutionLink pokemon={getUnevolved(props.pokemon.name)} />
             </div>
         </div>
     );
 }
 
 function EvolutionLink(props) {
-    const chain = () => state.pokemon.evolutions[props.pokemon.name];
-    const findByName = (name) =>
-        state.pokemon.results.find((pkmn) => pkmn.name === name);
-
     return (
         <div class={styles.link}>
             <Show when={props.methods}>
-                <div class={styles.linkFrom}>
+                <div class={styles.methods}>
                     <For each={props.methods}>
                         {(method) => <EvolutionMethod method={method} />}
                     </For>
                 </div>
             </Show>
-            <img
-                class={styles.linkImg}
-                src={imageSrc(props.pokemon, 'thumbRegular')}
-            />
-            <div class={styles.linkTo}>
-                <For each={chain()?.to ?? []}>
-                    {(item) => (
-                        <EvolutionLink
-                            pokemon={findByName(item.name)}
-                            methods={item.methods}
-                        />
-                    )}
-                </For>
+            <div class={styles.linkPokemon}>
+                <div class={styles.linkImg}>
+                    <img src={imageSrc(props.pokemon, 'largeRegular')} />
+                </div>
+                <div class={styles.linkMeta}>
+                    <div class={styles.linkPokemonName}>
+                        {props.pokemon.name}
+                    </div>
+                    <div class={styles.linkPokemonTypes}>
+                        <For each={props.pokemon.types}>
+                            {(type) => <PokemonType small type={type} />}
+                        </For>
+                    </div>
+                </div>
             </div>
+            <Show when={getChain(props.pokemon.name).to.length > 0}>
+                <div class={styles.linkTo}>
+                    <For each={getChain(props.pokemon.name).to}>
+                        {(item) => (
+                            <EvolutionLink
+                                pokemon={findPokemon({name: item.name})}
+                                chain={getChain(item.name, false)}
+                                methods={item.methods}
+                            />
+                        )}
+                    </For>
+                </div>
+            </Show>
         </div>
     );
 }

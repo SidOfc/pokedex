@@ -1,10 +1,11 @@
 import styles from './style.module.css';
+import {typeColor} from '@src/util';
 
 export function PokemonType(props) {
     return (
         <span
-            style={{['--color']: `var(--type-${props.type})`}}
-            class={styles.type}
+            style={{['background-color']: typeColor(props.type)}}
+            classList={{[styles.type]: true, [styles.small]: props.small}}
         >
             {props.type}
         </span>

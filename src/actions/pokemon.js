@@ -16,7 +16,8 @@ export async function list() {
 }
 
 export async function select(id) {
-    const index = (await list()).results.findIndex((pkmn) => pkmn.id === id);
+    const {results, evolutions} = await list();
+    const index = results.findIndex((pkmn) => pkmn.id === id);
 
     if (index === -1) {
         setState('pokemon', 'selectedIndex', null);
@@ -24,19 +25,36 @@ export async function select(id) {
         return null;
     }
 
-    if (state.pokemon.results[index].details === undefined) {
+    if (results[index].details === undefined) {
         const response = await fetch(`/api/pokemon/${id}.json`);
         const result = await response.json();
-        const chain = state.pokemon.evolutions[result.name] ?? null;
-        console.log({chain});
-        Object.assign(result, {chain});
+
+        Object.assign(result, {chain: getChain(result.name)});
 
         setState('pokemon', 'results', index, 'details', result);
     }
 
     setState('pokemon', 'selectedIndex', index);
 
-    return state.pokemon.results[state.pokemon.selectedIndex];
+    return results[index];
+}
+
+export function findPokemon(attributes) {
+    const entries = Object.entries(attributes);
+
+    return state.pokemon.results.find((pkmn) =>
+        entries.every(([attr, value]) => pkmn[attr] === value)
+    );
+}
+
+export function getUnevolved(name) {
+    const chain = getChain(name);
+
+    return chain?.from ? getUnevolved(chain.from) : findPokemon({name});
+}
+
+export function getChain(name) {
+    return state.pokemon.evolutions[name] ?? {from: null, to: []};
 }
 
 export function getSelected() {

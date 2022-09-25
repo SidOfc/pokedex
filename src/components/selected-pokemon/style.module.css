@@ -116,10 +116,15 @@
 
 .linkImg {
     margin: var(--padding);
-    padding: var(--padding);
-    max-width: 64px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 4px solid rgba(0, 0, 0, 0.2);
     border-radius: 100%;
+}
+
+.linkImg img {
+    max-width: 96px;
+    transform-origin: center;
+    transform: scale(1.15);
 }
 
 .linkTo {
@@ -127,20 +132,49 @@
     flex-flow: column nowrap;
 }
 
-.linkFrom {
+.methods {
     flex: 1 1 auto;
     margin: 0 var(--padding);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
 }
 
 .method {
     display: flex;
     flex-flow: column wrap;
+    padding: calc(var(--padding) / 1.5) calc(var(--padding) / 2);
 }
 
 .method + .method {
-    margin-top: var(--padding);
     padding-top: var(--padding);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.linkPokemon {
+    display: grid;
+    place-items: center;
+}
+
+.linkMeta {
+    min-width: 15ch;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: var(--padding);
+    border-radius: var(--radius);
+}
+
+.linkPokemonName {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: var(--padding);
+}
+
+.linkPokemonTypes {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding);
+    font-size: 0.7rem;
 }
 
 .methodName {

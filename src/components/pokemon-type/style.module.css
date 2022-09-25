@@ -1,7 +1,13 @@
 .type {
-    --color: black;
+    min-width: 8ch;
+    text-align: center;
+    white-space: nowrap;
     padding: calc(var(--padding) / 3) var(--padding);
-    background-color: var(--color);
+    background-color: black;
     border-radius: var(--radius);
     color: white;
+}
+
+.small {
+    --padding: 6px;
 }

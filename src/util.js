@@ -1,4 +1,17 @@
-import {STAT_ORDER, STAT_NAMES} from '@src/constants';
+import {
+    STAT_ORDER,
+    STAT_NAMES,
+    TYPE_COLORS,
+    POKEDEX_COLORS,
+} from '@src/constants';
+
+export function pokedexColors(name) {
+    return POKEDEX_COLORS[name] ?? {primary: '#000000', accent: '#000000'};
+}
+
+export function typeColor(type) {
+    return TYPE_COLORS[type] ?? '#000000';
+}
 
 export function dig(obj, path) {
     return path.reduce((result, property) => result?.[property], obj);
