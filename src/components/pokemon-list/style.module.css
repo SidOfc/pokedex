@@ -3,6 +3,9 @@
     display: flex;
     flex-flow: column nowrap;
     height: 100vh;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .search {
@@ -21,9 +24,6 @@
     display: grid;
     grid-template-columns: repeat(var(--list-columns), minmax(0, 1fr));
     grid-template-rows: auto;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
     gap: var(--padding);
     overflow: auto;
     margin: var(--padding);

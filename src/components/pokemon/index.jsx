@@ -16,6 +16,7 @@ export function Pokemon(props) {
                     src={imageSrc(props.pokemon, 'thumbRegular')}
                 />
             </div>
+            <div class={styles.name}>{props.pokemon.name}</div>
             <div class={styles.identifier}>{displayNumber(props.pokemon)}</div>
         </div>
     );

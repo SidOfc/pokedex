@@ -6,6 +6,9 @@
 }
 
 .application {
+    --gradient-from: white;
+    --gradient-to: white;
+
     --radius: 4px;
     --padding: 8px;
     --list-width: minmax(300px, 25%);

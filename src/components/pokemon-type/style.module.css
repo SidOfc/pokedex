@@ -1,0 +1,7 @@
+.type {
+    --color: black;
+    padding: calc(var(--padding) / 3) var(--padding);
+    background-color: var(--color);
+    border-radius: var(--radius);
+    color: white;
+}

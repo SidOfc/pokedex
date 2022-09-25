@@ -13,18 +13,64 @@
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content min-content;
     grid-template-areas:
-        'image stats'
-        'name name';
+        'image chains chains'
+        'details chains chains';
     border-radius: var(--radius);
+}
+
+.details {
+    grid-area: details;
+    padding: calc(var(--padding) * 2);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+}
+
+.chains {
+    grid-area: chains;
+    padding: calc(var(--padding) * 2);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+    height: calc(100vh - var(--padding) * 6);
+    overflow: scroll;
 }
 
 .name {
     position: relative;
-    grid-area: name;
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: capitalize;
-    padding: var(--padding);
+    padding-bottom: calc(var(--padding) * 2);
+}
+
+.detailItem {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: min-content;
+    align-items: center;
+    padding-bottom: var(--padding);
+    margin-bottom: var(--padding);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.detailItem:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.detailItemName {
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.detailItemTypes {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: var(--padding);
+    font-size: 0.8rem;
 }
 
 .image {
@@ -49,12 +95,89 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: var(--radius);
-    box-shadow: var(--box-shadow);
 }
 
 .stats canvas {
     width: 320px;
     height: 320px;
+}
+
+.link {
+    flex: 0 1 0;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    font-size: 0.8rem;
+}
+
+.link + .link {
+    margin-top: calc(var(--padding) * 4);
+}
+
+.linkImg {
+    margin: var(--padding);
+    padding: var(--padding);
+    max-width: 64px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.linkTo {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.linkFrom {
+    flex: 1 1 auto;
+    margin: 0 var(--padding);
+}
+
+.method {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.method + .method {
+    margin-top: var(--padding);
+    padding-top: var(--padding);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.methodName {
+    text-align: center;
+    font-weight: 700;
+}
+
+.methodConditions {
+    display: flex;
+    gap: var(--padding);
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.badge {
+    --padding-top: calc(var(--padding) / 6);
+    --padding-side: calc(var(--padding) / 2);
+    --padding-bottom: calc(var(--padding) / 4);
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content;
+    white-space: nowrap;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.badgeKey {
+    padding: var(--padding-top) var(--padding-side) var(--padding-bottom);
+    color: white;
+}
+
+.badgeValue {
+    padding: var(--padding-top) var(--padding-side) var(--padding-bottom);
+    background-color: white;
+    color: black;
 }

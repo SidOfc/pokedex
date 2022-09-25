@@ -5,7 +5,7 @@ module.exports = {
     },
     plugins: ['solid'],
     extends: ['eslint:recommended', 'plugin:solid/recommended'],
-    overrides: [{files: ['.eslintrc.cjs'], env: {node: true}}],
+    overrides: [{files: ['.eslintrc.cjs', 'scripts/**'], env: {node: true}}],
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
