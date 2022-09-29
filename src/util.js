@@ -17,10 +17,12 @@ export function dig(obj, path) {
     return path.reduce((result, property) => result?.[property], obj);
 }
 
-export function gradientStyle(pkmn) {
+export function cssCustomProperties(pkmn, fallback = '#000000') {
     return {
-        ['--gradient-from']: `var(--type-${pkmn.types.at(0)})`,
-        ['--gradient-to']: `var(--type-${pkmn.types.at(-1)})`,
+        ['--type-primary']: TYPE_COLORS[pkmn.types.at(0)] ?? fallback,
+        ['--type-secondary']: TYPE_COLORS[pkmn.types.at(-1)] ?? fallback,
+        ['--theme-primary']: POKEDEX_COLORS[pkmn.color]?.primary ?? fallback,
+        ['--theme-accent']: POKEDEX_COLORS[pkmn.color]?.accent ?? fallback,
     };
 }
 

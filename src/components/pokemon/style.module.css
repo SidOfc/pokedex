@@ -1,6 +1,4 @@
 .container {
-    --gradient-from: rgba(0, 0, 0, 0.1);
-    --gradient-to: rgba(0, 0, 0, 0.1);
     position: relative;
     display: grid;
     place-items: center;
@@ -9,28 +7,12 @@
     padding: var(--padding);
     border-radius: var(--radius);
     box-shadow: var(--box-shadow);
+    background-color: var(--theme-primary);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .container.hidden {
     display: none;
-}
-
-.container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-    opacity: 0.4;
-    border-radius: inherit;
-    background-image: linear-gradient(
-        135deg,
-        var(--gradient-from),
-        var(--gradient-from) 30%,
-        var(--gradient-to) 80%
-    );
 }
 
 .thumbnailContainer {

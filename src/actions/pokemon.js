@@ -16,7 +16,7 @@ export async function list() {
 }
 
 export async function select(id) {
-    const {results, evolutions} = await list();
+    const {results} = await list();
     const index = results.findIndex((pkmn) => pkmn.id === id);
 
     if (index === -1) {
@@ -41,16 +41,22 @@ export async function select(id) {
 
 export function findPokemon(attributes) {
     const entries = Object.entries(attributes);
+    const matchAttributes = (pkmn) =>
+        entries.every(([attr, value]) => pkmn[attr] === value);
 
-    return state.pokemon.results.find((pkmn) =>
-        entries.every(([attr, value]) => pkmn[attr] === value)
-    );
+    return state.pokemon.results.find(matchAttributes) ?? null;
 }
 
-export function getUnevolved(name) {
-    const chain = getChain(name);
+export function evolutionMethods(pkmn, toName) {
+    const {to} = getChain(pkmn.name);
 
-    return chain?.from ? getUnevolved(chain.from) : findPokemon({name});
+    return to.find(({name}) => name === toName)?.methods ?? [];
+}
+
+export function previousEvolution(name) {
+    const {from} = getChain(name);
+
+    return from && findPokemon({name: from});
 }
 
 export function getChain(name) {

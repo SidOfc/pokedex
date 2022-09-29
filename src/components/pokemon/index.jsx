@@ -1,5 +1,5 @@
 import styles from './style.module.css';
-import {gradientStyle, imageSrc, displayNumber} from '@src/util';
+import {cssCustomProperties, imageSrc, displayNumber} from '@src/util';
 import {select} from '@actions/pokemon';
 
 export function Pokemon(props) {
@@ -7,7 +7,7 @@ export function Pokemon(props) {
         <div
             classList={{[styles.container]: true, [styles.hidden]: !props.when}}
             title={props.pokemon.name}
-            style={gradientStyle(props.pokemon)}
+            style={cssCustomProperties(props.pokemon)}
             onClick={() => select(props.pokemon.id)}
         >
             <div class={styles.thumbnailContainer}>

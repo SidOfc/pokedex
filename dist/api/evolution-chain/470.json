@@ -1,1 +1,1 @@
-{"urshifu":{"from":"kubfu","to":[]},"kubfu":{"from":null,"to":[{"name":"urshifu","methods":[]}]}}
+{"urshifu":{"from":"kubfu","to":[]},"kubfu":{"from":null,"to":[{"name":"urshifu","methods":[{"trigger":"tower-of-darkness","conditions":{}},{"trigger":"tower-of-waters","conditions":{}}]}]}}

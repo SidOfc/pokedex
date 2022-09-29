@@ -46,6 +46,26 @@ export const POKEDEX_COLORS = {
     white: {primary: '#FFFFFF', accent: '#929292'},
     black: {primary: '#BBBBBB', accent: '#2C2C2C'},
     brown: {primary: '#CC9966', accent: '#704214'},
-    yellow: {primary: '#FFFF9', accent: '#A68C21'},
+    yellow: {primary: '#FFFF99', accent: '#A68C21'},
     purple: {primary: '#C183C1', accent: '#682A68'},
+};
+
+export const KEY_LABELS = {
+    gender: 'gender',
+    heldItem: 'hold',
+    item: 'use',
+    move: 'move',
+    moveType: 'move type',
+    location: 'location',
+    minAffection: 'affection',
+    minBeauty: 'beauty',
+    minHappiness: 'happiness',
+    minLevel: 'level',
+    needsOverworldRain: 'rain',
+    partySpecies: 'party',
+    partyType: 'party type',
+    timeOfDay: 'time',
+    tradeSpecies: 'trade',
+    turnUpsideDown: 'upside down',
+    relativePhysicalStats: 'rel. physical stats',
 };

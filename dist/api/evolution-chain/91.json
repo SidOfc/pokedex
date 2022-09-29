@@ -1,1 +1,1 @@
-{"sudowoodo":{"from":"bonsly","to":[]},"bonsly":{"from":null,"to":[{"name":"sudowoodo","methods":[{"trigger":"level-up","conditions":{}}]}]}}
+{"sudowoodo":{"from":"bonsly","to":[]},"bonsly":{"from":null,"to":[{"name":"sudowoodo","methods":[{"trigger":"level-up","conditions":{"move":"mimic"}}]}]}}

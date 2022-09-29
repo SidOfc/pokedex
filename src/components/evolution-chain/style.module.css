@@ -1,0 +1,108 @@
+.chain {
+    position: relative;
+    flex: 0 1 0;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    font-size: 0.8rem;
+}
+
+.chain::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-color: var(--type-primary);
+    filter: saturate(50%);
+}
+
+.chain .chain::before {
+    display: none;
+}
+
+.chain + .chain {
+    margin-top: calc(var(--padding) * 4);
+}
+
+.evolutions {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.evolution {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content;
+    align-items: center;
+}
+
+.evolutionMethods {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 30ch;
+    margin: 0 calc(var(--padding) * 4);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius);
+    padding: var(--padding);
+}
+
+.evolutionTrigger {
+    text-align: center;
+    font-weight: 700;
+    padding: calc(var(--padding) / 3) calc(var(--padding) / 5);
+}
+
+.evolutionConditions {
+    display: flex;
+    gap: var(--padding);
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.target {
+    position: relative;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.targetImg {
+    position: relative;
+    margin: var(--padding);
+    background-color: var(--theme-primary);
+    border: 4px solid var(--theme-accent);
+    border-radius: 100%;
+}
+
+.targetImg img {
+    max-width: 96px;
+    transform-origin: center;
+    transform: scale(1.15);
+}
+
+.targetDetails {
+    min-width: 15ch;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: var(--padding);
+    border-radius: var(--radius);
+}
+
+.targetName {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: calc(var(--padding) / 1.5);
+    text-transform: capitalize;
+}
+
+.targetTypes {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding);
+    font-size: 0.7rem;
+}

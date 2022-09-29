@@ -13,6 +13,16 @@ import {
 } from '../util.js';
 import * as Pokemon from '../models/pokemon.js';
 
+const INDEX_KEYS = [
+    'id',
+    'name',
+    'order',
+    'types',
+    'isDefault',
+    'images',
+    'color',
+];
+
 export async function build(settings = {}) {
     const resource = 'pokemon';
 
@@ -26,7 +36,7 @@ export async function build(settings = {}) {
         label: resource,
         items: results,
         size: settings.batchSize ?? (allowFast ? 200 : 20),
-        delay: settings.batchDelay ?? (allowFast ? 0 : 5000),
+        delay: settings.batchDelay ?? (allowFast ? 0 : 3000),
         async callback({url}) {
             const response = await request(url);
             const pkmn = await response.json();
@@ -53,7 +63,7 @@ export async function build(settings = {}) {
                                           .background('None')
                                           .resize(475, 475)
                                           .extent(475, 475)
-                                  ).catch(() => bust(url))
+                                  ).finally(() => bust(url))
                                 : originalBuf;
 
                             item.images[type] = `api/${resource}/${fileName}`;
@@ -71,9 +81,8 @@ export async function build(settings = {}) {
         },
     });
 
-    const indexKeys = ['id', 'name', 'order', 'types', 'default', 'images'];
     const mappedItems = items
-        .map((item) => only(item, indexKeys))
+        .map((item) => only(item, INDEX_KEYS))
         .filter((item) => item.isDefault && item.order >= 0);
 
     await save(`${resource}.json`, mappedItems);

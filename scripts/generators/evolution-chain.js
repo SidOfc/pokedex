@@ -23,7 +23,7 @@ export async function build(settings = {}) {
         label: resource,
         items: results,
         size: settings.batchSize ?? (allowFast ? 200 : 20),
-        delay: settings.batchDelay ?? (allowFast ? 0 : 5000),
+        delay: settings.batchDelay ?? (allowFast ? 0 : 3000),
         async callback({url}) {
             const response = await request(url);
             const json = await response.json();

@@ -19,7 +19,11 @@ function transformChain(item, acc = {}, parent = null) {
 }
 
 function filterDetails(method, _, methods) {
-    return Object.keys(method.conditions).length > 0 || methods.length < 2;
+    return (
+        Object.keys(method.conditions).length > 0 ||
+        methods.length < 2 ||
+        ['tower-of-darkness', 'tower-of-waters'].includes(method.trigger)
+    );
 }
 
 function transformDetails(details) {
@@ -30,7 +34,7 @@ function transformDetails(details) {
                 gender: details.gender,
                 heldItem: details.held_item?.name ?? null,
                 item: details.item?.name ?? null,
-                move: details.move?.name ?? null,
+                move: details.known_move?.name ?? null,
                 moveType: details.move_type?.name ?? null,
                 location: details.location?.name ? details.location.name : null,
                 minAffection: details.min_affection,

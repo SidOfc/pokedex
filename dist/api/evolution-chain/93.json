@@ -1,1 +1,1 @@
-{"ambipom":{"from":"aipom","to":[]},"aipom":{"from":null,"to":[{"name":"ambipom","methods":[{"trigger":"level-up","conditions":{}}]}]}}
+{"ambipom":{"from":"aipom","to":[]},"aipom":{"from":null,"to":[{"name":"ambipom","methods":[{"trigger":"level-up","conditions":{"move":"double-hit"}}]}]}}

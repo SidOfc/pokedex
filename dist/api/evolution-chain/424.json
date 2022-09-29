@@ -1,1 +1,1 @@
-{"naganadel":{"from":"poipole","to":[]},"poipole":{"from":null,"to":[{"name":"naganadel","methods":[{"trigger":"level-up","conditions":{}}]}]}}
+{"naganadel":{"from":"poipole","to":[]},"poipole":{"from":null,"to":[{"name":"naganadel","methods":[{"trigger":"level-up","conditions":{"move":"dragon-pulse"}}]}]}}

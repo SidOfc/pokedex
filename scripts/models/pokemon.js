@@ -1,5 +1,5 @@
 import {sortBy} from '../util.js';
-import shinyUrls from '../shiny-urls.js';
+import shinyUrls from '../data/shiny-urls.js';
 
 export function process(data) {
     const {pkmn, species} = data;

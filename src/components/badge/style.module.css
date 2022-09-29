@@ -1,0 +1,26 @@
+.container {
+    --padding-top: calc(var(--padding) / 6);
+    --padding-side: calc(var(--padding) / 2);
+    --padding-bottom: calc(var(--padding) / 4);
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content;
+    white-space: nowrap;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.label {
+    padding: var(--padding-top) var(--padding-side) var(--padding-bottom);
+    color: white;
+}
+
+.value {
+    padding: var(--padding-top) var(--padding-side) var(--padding-bottom);
+    background-color: white;
+    color: black;
+}
